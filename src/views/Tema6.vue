@@ -41,11 +41,11 @@
           .col-12.col-md-2.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema6/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
           .col-12.col-md-10.mb-3.mb-md-0
-            p.mb-0 <b>Exploración e indagación:</b> Las fuentes secundarias se utilizan mucho para efectos de exploración e indagación sobre tendencias o por conceptos derivados de las fuentes primarias, facilitando su entendimiento.
+            p.mb-0 <b>Exploración e indagación:</b> las fuentes secundarias se utilizan mucho para efectos de exploración e indagación sobre tendencias o por conceptos derivados de las fuentes primarias, facilitando su entendimiento.
 
         .row.justify-content-center.align-items-star.p-5
           .col-12.col-md-10.mb-3.mb-md-0
-            p.mb-0 <b>Diagnósticos y toma de decisiones:</b> Para efectos de cualquier investigación diagnóstica, y como base para la toma de decisiones, se sugiere siempre contar con fuentes primarias, que son las que tienen mayor grado de confiabilidad.
+            p.mb-0 <b>Diagnósticos y toma de decisiones:</b> para efectos de cualquier investigación diagnóstica, y como base para la toma de decisiones, se sugiere siempre contar con fuentes primarias, que son las que tienen mayor grado de confiabilidad.
           .col-12.col-md-2.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema6/ico_2.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
           
@@ -53,7 +53,7 @@
           .col-12.col-md-2.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema6/ico_3.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
           .col-12.col-md-10.mb-3.mb-md-0
-            p.mb-0 <b>Fiabilidad de ambos tipos:</b> La confiabilidad que otorgan las fuentes primarias no significa que, en un determinado momento, no se puedan tomar referentes de fuentes secundarias, pero hay que tener en cuenta la fiabilidad de quien la genera o del tipo de documento que representa.
+            p.mb-0 <b>Fiabilidad de ambos tipos:</b> la confiabilidad que otorgan las fuentes primarias no significa que, en un determinado momento, no se puedan tomar referentes de fuentes secundarias, pero hay que tener en cuenta la fiabilidad de quien la genera o del tipo de documento que representa.
 
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6(data-aos="fade-right") 
@@ -110,15 +110,15 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Boletines")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Sirven de soporte a los informes físicos. Son desagregaciones resumidas de los procesos, de resultados de la empresa, así como de aspectos propios de la actividad empresarial, donde se utiliza información estadística y descriptiva, que puede ser cuantitativa o cualitativa muy sintetizada. Pueden se ocasionales o seriados; es decir, con una frecuencia definida por la empresa.
+                p.mb-0 Sirven de soporte a los informes físicos. Son desagregaciones resumidas de los procesos, de resultados de la empresa, así como de aspectos propios de la actividad empresarial, donde se utiliza información estadística y descriptiva, que puede ser cuantitativa o cualitativa muy sintetizada. Pueden ser ocasionales o seriados; es decir, con una frecuencia definida por la empresa.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_9.png')
            
           
-          .tarjeta.back-tab.px-5.py-4(titulo="Difusión por página web o intranet")
+          .tarjeta.back-tab.px-5.py-4(titulo="Difusión por página <i>web</i> o intranet")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página web empresarial (pública). Asimismo, la información exclusiva de la organización, para efecto de sus comunicaciones, coordinación y desarrollo de actividades, resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados  y personas vinculadas con la empresa. 
+                p.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página <i>web</i> empresarial (pública). Asimismo, la información exclusiva de la organización, para efecto de sus comunicaciones, coordinación y desarrollo de actividades, resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados  y personas vinculadas con la empresa. 
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_10.png')
 
@@ -256,13 +256,13 @@ export default {
       {
         titulo: 'Entrevistas individuales',
         texto:
-          'Es una conversación empática en un clima de confianza mutua, compresión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto. ',
+          'Es una conversación empática en un clima de confianza mutua, comprensión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto. ',
         imagen: require('@/assets/curso/images/tema6/img_3.png'),
       },
       {
         titulo: 'Análisis de documentos de informes previos',
         texto:
-          'Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualice las posibilidades de actividad y su comportamiento histórico.',
+          'Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualicen las posibilidades de actividad y su comportamiento histórico.',
         imagen: require('@/assets/curso/images/tema6/img_3_1.png'),
       },
       {

@@ -19,7 +19,7 @@
               p Permite identificar las debilidades y fortalezas para enfrentar un mercado muy dinámico. 
             li 
               i.fas.fa-angle-right
-              p Después del análisis, permite la evaluación de los productos, servicios, estrategia de ventas, el marketing y la publicidad empleados, entre otras variables operativas.
+              p Después del análisis, permite la evaluación de los productos, servicios, estrategia de ventas, el <i>marketing</i> y la publicidad empleados, entre otras variables operativas.
             li 
               i.fas.fa-angle-right
               p Permite descubrir cuáles son los puntos fuertes y débiles para actuar en consecuencia.
@@ -57,7 +57,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico organizacional integral")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Diagnóstico global que abarca un análisis de todos los procesos y funciones de la empresa; incluye variables y aspectos de los anteriores diagnósticos, implica el análisis de factores externos e internos determinado su posición relativa de competitividad, es decir, identifica qué aspectos la están conduciendo al éxito y cuáles se han descuidado en su capacidad productiva y de crecimiento. Tiene un enfoque eminentemente estratégico de largo plazo.
+                p.mb-0 Diagnóstico global que abarca un análisis de todos los procesos y funciones de la empresa; incluye variables y aspectos de los anteriores diagnósticos, implica el análisis de factores externos e internos determinado su posición relativa de competitividad, es decir, identifica qué aspectos la están conduciendo al éxito y cuáles se han descuidado en su capacidad productiva y de crecimiento. Tiene un enfoque eminentemente estratégico a largo plazo.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema3/img_4.png')
 
@@ -71,7 +71,7 @@
         p.mb-3 En primera instancia para un diagnóstico de mercado agropecuario se recomienda la revisión de informaciones estadísticas publicadas y disponibles, como estudios relacionados con el sector y su capacidad, tipos de producción etc. Ejercicio que se recomienda hacer tanto para la oferta como para la demanda, dentro de la región o zona de influencia de la empresa.
 
           .cajon.color-custom-2.p-4        
-            p.mb-0 La importancia de la planeación estratégica radica en que, con su aplicación, es más favorable el logro de metas con las cuales suplir necesidades de la sociedad local o internacional. A partir de esto, la organización puede ajustarse más y mejor a los constantes y probables cambios de las condiciones climáticas, de acceso a recursos, tendencias de consumo, bloqueos comerciales y todos los aspectos que puedan afectarla.
+            p.mb-0 En esta revisión es importante verificar variables cualitativas y cuantitativas para toma de decisiones frente a alternativas productivas; además, hacer un estudio y evaluación de disponibilidad de espacios o de tierras contempladas para el uso e incluir en la planificación productiva. 
 
       .col-lg-6.mb-3(data-aos="fade-right") 
         img.mt-5(src='@/assets/curso/images/tema3/img_5.png'  alt='') 
@@ -118,12 +118,12 @@
           .row(titulo='KPI' numero='1')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-0  Los indicadores de gestión, conocidos como KPI (Key Performance Indicator), representan la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio, o persona están alcanzando las metas y objetivos, o resultados esperados.
+                p.mb-0  Los indicadores de gestión, conocidos como KPI (<i>Key Performance Indicator</i>), representan la forma de medir si una función, proyecto, actividad, área funcional, unidad de negocio, o persona están alcanzando las metas y objetivos, o resultados esperados.
 
           .row(titulo='Todos los niveles empresariales' numero='2')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-0  Se deben utilizar indicadores de gestión en todos los niveles empresariales para evaluar el éxito como el logro establecido en la planeación de la empresarial. 
+                p.mb-0  Se deben utilizar indicadores de gestión en todos los niveles empresariales para evaluar el éxito como el logro establecido en la planeación de la gestión empresarial. 
 
           .row(titulo='Múltiples fuentes' numero='3')
             .row.justify-content-center.align-items-star

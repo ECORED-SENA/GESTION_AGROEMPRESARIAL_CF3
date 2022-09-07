@@ -25,7 +25,7 @@
     p.mb-3 En Colombia la economía se estructura a partir del tipo de proceso de producción que desarrollan las empresas u organizaciones, las cuales, desde un enfoque clásico convencional, se dividen en tres sectores: 
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
-      .py-4.py-md-4.mg-top-2(titulo="SECTOR PRIMARIO")
+      .py-4.py-md-4.mg-top-2(titulo="Sector primario")
         .row.justify-content-center.p-5
           .col-12.col-md-5.mb-3.mb-md-0
               img(src="@/assets/curso/images/tema1/img_6_1.png").m-auto
@@ -41,7 +41,7 @@
             img(src="@/assets/curso/images/tema1/img_7.png").m-auto
           .col-12.col-md-7.mb-3.mb-md-0
             h3 Sector secundario
-            p.mb-3 Empresas cuyas actividades están dedicadas a la elaboración o producción industrial, la transformación industrial de materias primas, de bienes de otras empresas, que también se utilizan como base para la fabricación y elaboración otros o nuevos productos.
+            p.mb-3 Empresas cuyas actividades están dedicadas a la elaboración o producción industrial, la transformación industrial de materias primas, de bienes de otras empresas, que también se utilizan como base para la fabricación y elaboración de otros o nuevos productos.
 
             p.mb-0 Transforman materias primas en productos elaborados: cárnicos, lácteos, construcción, industria, marroquinería, etc.
           
@@ -232,6 +232,12 @@ export default {
   components: {},
   data: () => ({
     datosSlyder: [
+      {
+        titulo: 'Surgimiento de las normas y reglas',
+        texto:
+          'Del cumplimiento o incumplimiento de los roles y responsabilidades asignados a cada individuo, vino el surgimiento de las normas, con las cuales se busca la armonía, el alcance de metas y objetivos comunes que, inicialmente, se basaban en sobrevivir.',
+        imagen: require('@/assets/curso/images/tema1/img_new.jpg'),
+      },
       {
         titulo: 'Surgimiento de las normas y reglas',
         texto:

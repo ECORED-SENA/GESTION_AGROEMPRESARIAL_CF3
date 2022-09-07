@@ -37,13 +37,13 @@
             .h5.mb-2 Producción
             p De productos agrícolas o pecuarios.
 
-          .tarjeta.color-custom-4.p-3(x="40%" y="5%" numero="2")
+          .tarjeta.color-custom-4.p-3(x="40%" y="5%" numero="3")
             .h5.mb-2 Consumo
             p Adquisición directa o indirecta de los productos por parte de usuarios o clientes (personas u otras empresas).
 
-          .tarjeta.color-custom-4.p-3(x="31%" y="71%" numero="3")
+          .tarjeta.color-custom-4.p-3(x="31%" y="71%" numero="2")
             .h5.mb-2 Distribución
-            p Distribución Reparto o transferencia de los productos agropecuarios a zonas de influencia de la empresa.
+            p Distribución reparto o transferencia de los productos agropecuarios a zonas de influencia de la empresa.
 
           .tarjeta.color-custom-4.p-3(x="92%" y="9%" numero="4")
             .h5.mb-2 Comercialización
@@ -151,7 +151,7 @@
     .row.justify-content-evenly.align-items-center.p-2 
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
-          .row(titulo='Productos de los planes a largo plazo' numero='1')
+          .row(titulo='Planes a largo plazo' numero='1')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0  Aquellos donde se estima un tiempo superior a dos años; el propósito es delimitar las líneas de productos, los niveles de calidad, precio, metas de ventas y participación en nichos o segmentos de mercado que la empresa establezca para sus operaciones.
@@ -166,8 +166,13 @@
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0 Iniciativas que fijan un horizonte inferior a un año donde, regularmente, su desarrollo se mide en semanas. Este tipo de planes exige un trabajo muy puntual y disciplinado en su desarrollo.
+
+          .row(titulo='Planes a mediano plazo' numero='4')
+            .row.justify-content-center.align-items-star
+              .col-12.col-lg-12.mb-4.mb-lg-0
+                p.mb-0 Son aquellas iniciativas estratégicas con un periodo comprendido entre uno a dos años, en promedio. Por ejemplo, nuevas plantaciones de algunos frutales, las cuales requieren el desarrollo de las plantas hasta sus primeras producciones.
             
-          .row(titulo='Iniciativas de los planes a corto plazo' numero='4')
+          .row(titulo='Iniciativas de los planes a corto plazo' numero='5')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-3  En los planes a corto plazo se pueden identificar las iniciativas cíclicas que tienen ya su estacionalidad productiva, tal es el caso de la producción de cohortes de crianza y engorde de pollo, donde el ejercicio se mide en semanas y se desarrollan varias cohortes en el año, con sus respectivas estacionalidades de consumo (o las producciones de fruta por cosechas, cuando se trata de plantas ya maduras).

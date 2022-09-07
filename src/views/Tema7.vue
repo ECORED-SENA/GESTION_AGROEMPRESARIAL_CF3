@@ -53,7 +53,7 @@
               p Optimización de recursos en función del tiempo lo que trae mayor productividad.
             li 
               i.fas.fa-angle-right
-              p Posicionamiento por obtener una mayor visibilidad e impacto en su mercado o zona donde opera.
+              p Posicionamiento para obtener una mayor visibilidad e impacto en su mercado o zona donde opera.
             li 
               i.fas.fa-angle-right
               p Desarrollo y consolidación de la imagen de marca, lo que conlleva a la fidelización.
@@ -74,7 +74,7 @@
               p Desarrollo de capacidades de convocatoria ante mercado que atiende ante nuevos desarrollos.
             li 
               i.fas.fa-angle-right
-              p Facilita la evaluación y control ante desviaciones en los planes y sus resultados, mejorado la eficacia.
+              p Facilita la evaluación y control ante desviaciones en los planes y sus resultados, mejorando la eficacia.
             li 
               i.fas.fa-angle-right
               p Desarrollar en el mediano y largo plazo una cultura de comunicación como base del mejoramiento.
@@ -85,35 +85,12 @@
     Separador
 
     #t_7_1.titulo-segundo
-      .h2 3.1 Tipos de diagnóstico
+      .h2 7.1 Proceso de comunicación
 
     p.mb-3 Independientemente del tipo de comunicación de que se trate y la cantidad de destinatarios, el proceso siempre será el mismo desde lo holístico. En el proceso de comunicación hay siempre un interesado en emitir un mensaje, idea o concepto, por lo cual debe encontrar el lenguaje adecuado para estructurar lo que quiere decir, a lo que se le denomina codificación.
 
 
-    .row.align-items-center.align-items-center.my-5
-      .col-lg-12
-        TabsA(data-aos="fade")
-          .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico funcional")
-            .row.align-items-center.align-items-center
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Busca identificar variables relevantes en la comunicación interna, que repercuten en la operación bien sea administrativa, comercial o de producción; variables que pueden estar afectando la productividad o ciclo del negocio. El diagnóstico funcional permite, mediante el uso de cuestionarios, entrevistas, sistematización de experiencias, análisis grupal, establecer los mecanismos de comunicación generales de toda la organización.
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                img(src='@/assets/curso/images/tema3/img_2.png')
-            
-          .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico específico")
-            .row.align-items-center.align-items-center
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Permite determinar el estado actual de un proceso específico en la empresa, unidad de negocio o línea de producto, analizando los diferentes aspectos relacionados como estados financieros, proceso de mercadeo y ventas, gestión de producción de la empresa, administración del talento humano, entre otros.
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                img(src='@/assets/curso/images/tema3/img_3.png')
-           
-          
-          .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico organizacional integral")
-            .row.align-items-center.align-items-center
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Diagnóstico global que abarca un análisis de todos los procesos y funciones de la empresa; incluye variables y aspectos de los anteriores diagnósticos, implica el análisis de factores externos e internos determinado su posición relativa de competitividad, es decir, identifica qué aspectos la están conduciendo al éxito y cuáles se han descuidado en su capacidad productiva y de crecimiento. Tiene un enfoque eminentemente estratégico de largo plazo.
-              .col-12.col-lg-6.mb-4.mb-lg-0
-                img(src='@/assets/curso/images/tema3/img_4.png')
+    
     .row.justify-content-center.align-items-star.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-botones
@@ -178,7 +155,7 @@
             .col-6.col-lg-2.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema7/ico_1.svg'  alt='' , style="width:100px; display:block; margin:auto 0 ;")
             .col-lg-10
-              p.my-3 La función vital de la tecnología, en la actualidad, está soportada principalmente en el uso y manejo de servicios de software, lo cual es de fácil acceso para los empresarios de hoy.
+              p.my-3 La función vital de la tecnología, en la actualidad, está soportada principalmente en el uso y manejo de servicios de <i>software</i>, lo cual es de fácil acceso para los empresarios de hoy.
 
 
 

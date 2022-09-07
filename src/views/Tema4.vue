@@ -18,7 +18,7 @@
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
-      .py-4.py-md-4.mg-top-2(titulo="Recursos Humanos")
+      .py-4.py-md-4.mg-top-2(titulo="Recursos humanos")
         .row.justify-content-center.p-5
           .col-12.col-md-5.mb-3.mb-md-0
               img(src="@/assets/curso/images/tema4/img_2.png").m-auto
@@ -27,16 +27,16 @@
             p.mb-0 Personas vinculadas con la empresa: operarios, obreros, supervisores, jefes, directores, gerentes, presidente, socios.
           
 
-      .py-3.py-md-4.mg-top-2(titulo="Recursos Técnicos - tecnológicos")
+      .py-3.py-md-4.mg-top-2(titulo="Recursos técnicos - tecnológicos")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema4/img_2_1.png").m-auto
           .col-12.col-md-7.mb-3.mb-md-0
-            h3 Recursos Técnicos - tecnológicos
-            p.mb-0 Recursos intangibles que posee la empresa y que atesoran los valores de la actividad a la que se dedica la empresa, entre los que se encuentran: el software, el sistema de ventas, el sistema de producción, las patentes, los secretos del saber hacer, fórmulas, etc.
+            h3 Recursos técnicos - tecnológicos
+            p.mb-0 Recursos intangibles que posee la empresa y que atesoran los valores de la actividad a la que se dedica la empresa, entre los que se encuentran: el <i>software</i>, el sistema de ventas, el sistema de producción, las patentes, los secretos del saber hacer, fórmulas, etc.
           
 
-      .py-3.py-md-4.mg-top-2(titulo="Recursos Físicos")
+      .py-3.py-md-4.mg-top-2(titulo="Recursos físicos")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema4/img_3.png").m-auto
@@ -46,7 +46,7 @@
             p.mb-3 #[span.color-text Bienes muebles:] equipo de cómputo y comunicaciones, equipo de oficina (calculadora, perforadoras, cosedoras, etc.), muebles y enseres, flota de transporte (vehículos, camiones, tractores, etc.), maquinaria agrícola, etc.
             p.mb-0 #[span.color-text Bienes inmuebles:] lotes, edificios, oficinas, casas, minas, etc.
 
-      .py-3.py-md-4.mg-top-2(titulo="Recursos Financieros")
+      .py-3.py-md-4.mg-top-2(titulo="Recursos financieros")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema4/img_4.png").m-auto

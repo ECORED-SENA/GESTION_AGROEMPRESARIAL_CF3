@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Estructura organizacional',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -72,7 +72,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '3.1 Tipos de diagnóstico',
+            titulo: 'Tipos de diagnóstico',
             hash: 't_3_1',
           },
           {
@@ -134,7 +134,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '7.1',
-            titulo: 'Técnicas e instrumentos de recolección de información',
+            titulo: 'Proceso de comunicación',
             hash: 't_7_1',
           },
           {
@@ -167,7 +167,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '8.3',
-            titulo: 'Plan de mercadeo',
+            titulo: 'Plan de mercadeo ',
             hash: 't_8_3',
           },
           {
@@ -250,6 +250,10 @@ export default {
     {
       referencia:
         'Garza, T. J. (2009). Administración Contemporánea, Reto para la empresa. Ed. Alhambra Mexicana.',
+    },
+    {
+      referencia:
+        'Portugal, V. (s.f.). Diagnóstico Empresarial. Fundación Universitaria del Areandina.',
     },
     {
       referencia:
@@ -457,7 +461,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Eugenia Mejía Lopez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

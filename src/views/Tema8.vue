@@ -11,7 +11,7 @@
       .col-lg-6(data-aos="fade-right") 
         p.mb-3 Las empresas suelen tener, naturalmente, dificultades propias en el cumplimiento de sus objetivos funcionales de ventas y comercialización de los bienes y productos que desarrollan; para ello, toman iniciativas estratégicas y tácticas, que son prácticas comunes en otras empresas o industrias, pero su aplicación equivocada o la escogencia de las estrategias erradas puede implicar grandes pérdidas de recursos.
 
-        p.mb-3 Para definir las estrategias pertinentes que se deben aplicar en la empresa para la generación de ingresos y venta de productos, existe la herramienta de la Matriz de Ansof, que busca parametrizar las decisiones según las variables estratégicas de mercado de la empresa. 
+        p.mb-3 Para definir las estrategias pertinentes que se deben aplicar en la empresa para la generación de ingresos y venta de productos, existe la herramienta de la Matriz de Ansoff, que busca parametrizar las decisiones según las variables estratégicas de mercado de la empresa. 
 
       .col-lg-6(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema8/img_1.svg')
@@ -88,7 +88,7 @@
           .row
             .col-md-10.mb-4.mb-md-0
               h3 Desarrollo de producto
-              p Se da cuando las empresas identifican que sus productos convencionales han perdido atractivo, o que el mercado ha encontrado productos sustitutos, nuevas tendencias de consumo. Entonces, opta por la incursión de nuevos productos que orienta hacia los clientes existentes y con quien lleva relaciones comerciales. Esto no significa que deje sus productos, sino que amplia sus ventas con nuevos productos.
+              p Se da cuando las empresas identifican que sus productos convencionales han perdido atractivo, o que el mercado ha encontrado productos sustitutos, nuevas tendencias de consumo. Entonces, opta por la incursión de nuevos productos que orienta hacia los clientes existentes y con quien lleva relaciones comerciales. Esto no significa que deje sus productos, sino que amplía sus ventas con nuevos productos.
           
             .col-md-2
               figure
@@ -139,7 +139,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12(data-aos="fade-right") 
         .jumbotron-6.p-4
-          p.mb-0 Para estimular la oferta de las empresas y por ende estimular la demanda con mayores posibilidades de producto, el Ministerio de Agricultura en Colombia, promueve el programa el Campo a un click, que busca que empresas pequeñas y medianas actúen como nuevos actores en el mercado.
+          p.mb-0 Para estimular la oferta de las empresas y por ende estimular la demanda con mayores posibilidades de producto, el Ministerio de Agricultura en Colombia, promueve el programa el Campo a un <i>click</i>, que busca que empresas pequeñas y medianas actúen como nuevos actores en el mercado.
 
     Separador
 
@@ -189,7 +189,7 @@
 
           .row.justify-content-center.align-items-center(titulo="Acciones personalizadas")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0  En consecuencia, la segmentación introduce acciones más personalizados para un producto, para garantizar su compra ante un cliente que exige grados de distinción, lo que conlleva un mejor modelo de comunicación.
+              p.mb-0  En consecuencia, la segmentación introduce acciones más personalizadas para un producto, para garantizar su compra ante un cliente que exige grados de distinción, lo que conlleva un mejor modelo de comunicación.
           
           .row.justify-content-center.align-items-center(titulo="Iniciativas estratégicas")
             .col-md-12.mb-4.mb-md-0
@@ -204,7 +204,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Ubicación geográfica")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0  La empresa escogerá qué radios de cobertura podrá tener por su acceso, llevando los productos, en las condiciones necesarios para el clima, altitud, humedad, que requiera en ese entorno.
+              p.mb-0  La empresa escogerá qué radios de cobertura podrá tener por su acceso, llevando los productos, en las condiciones necesarias para el clima, altitud, humedad, que requiera en ese entorno.
         
           .row.justify-content-center.align-items-center(titulo="Composición demográfica")
             .col-md-12.mb-4.mb-md-0
@@ -217,6 +217,21 @@
           .row.justify-content-center.align-items-center(titulo="Promoción")
             .col-md-12.mb-4.mb-md-0
               p.mb-0  Se trata de iniciativas que buscan la vinculación de clientes diferenciados, con el producto. Por tanto, la empresa, para cada tipo de demanda segmentada, deberá proponer diferentes iniciativas de promoción.
+
+    Separador
+
+    #t_8_3.titulo-segundo
+      .h2 8.3 Plan de mercadeo 
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-8(data-aos="fade")
+        p.mb-3 El plan de mercadeo es un documento que plasma la iniciativa estratégica hacia un mercado y que facilita obtener resultados comerciales. Define cómo la empresa en un periodo de tiempo que regularmente es anual, desarrolla acciones para alcanzar resultados en mercados donde decide operar.
+
+        p.mb-0 El propósito del plan de mercadeo es trazar una ruta de acciones tácticas que obedecen a un enfoque estratégico y llegar al público objetivo o segmento elegidos, de manera que se logren los objetivos empresariales de rentabilidad y funcionales de ventas y posicionamiento y participación.
+
+      .col-lg-4.mb-3(data-aos="fade-right") 
+        img.mt-5(src='@/assets/curso/images/tema8/img_new.svg'  alt='')
+
       
     Separador
 
@@ -277,6 +292,7 @@
 
     .row.justify-content-center.align-items-center.p-2 
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+        p.mb-3 Algunas generalidades clave del seguimiento al plan y sus actividades, son:
         LineaTiempoD.color-secundario.especial
           .row(titulo='Medición del desempeño' numero='1')
             .row.justify-content-center.align-items-star
@@ -291,12 +307,12 @@
           .row(titulo='Cuando hay desviaciones…' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-0 De existir desviaciones, es decir que no se cumple con el indicador y su meta, entonces hay que realizar acciones tácticos y estratégicos de darse a lugar, sino fue que se midió mal, el indicador no arroja la información para sacar una conclusión.
+                p.mb-0 De existir desviaciones, es decir que no se cumple con el indicador y su meta, entonces hay que realizar acciones tácticas y estratégicas de darse a lugar, sino fue que se midió mal, el indicador no arroja la información para sacar una conclusión.
             
           .row(titulo='Tecnologías y sistematización del seguimiento' numero='4')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-0  Las empresa, en la actualidad, cuentan con muchos recursos técnicos y tecnológicos que facultan sus seguimientos a los planes y permiten recoger información de los indicadores de gestión con el fin de detallar el comportamiento y trazabilidad de las acciones.
+                p.mb-0  Las empresas, en la actualidad, cuentan con muchos recursos técnicos y tecnológicos que facultan sus seguimientos a los planes y permiten recoger información de los indicadores de gestión con el fin de detallar el comportamiento y trazabilidad de las acciones.
 
  
       .col-lg-6(data-aos="fade-right")
