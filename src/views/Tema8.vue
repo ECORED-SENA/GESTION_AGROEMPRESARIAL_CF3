@@ -51,8 +51,8 @@
             img(src='@/assets/curso/images/tema8/ico_4.svg' alt='AvatarTop')
           .tarjeta.color-custom-6
             .p-4
-              h3 Matriz de Ansof
-              p A partir de las posibilidades que plantea la matriz de Ansof, la empresa debe considerar sus iniciativas estratégicas y sus tácticas.
+              h3 Matriz de Ansoff
+              p A partir de las posibilidades que plantea la matriz de Ansoff, la empresa debe considerar sus iniciativas estratégicas y sus tácticas.
 
     h3.mb-5 Estrategias intensivas o agresivas
 

@@ -233,9 +233,9 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Surgimiento de las normas y reglas',
+        titulo: 'Niveles y roles de la agrupación humana',
         texto:
-          'Del cumplimiento o incumplimiento de los roles y responsabilidades asignados a cada individuo, vino el surgimiento de las normas, con las cuales se busca la armonía, el alcance de metas y objetivos comunes que, inicialmente, se basaban en sobrevivir.',
+          'Estas organizaciones de individuos, para que funcionaran, definieron niveles y roles por lo cual surge la división del trabajo.',
         imagen: require('@/assets/curso/images/tema1/img_new.jpg'),
       },
       {
