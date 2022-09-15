@@ -16,11 +16,12 @@
 
       .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_1.png')
-    
+  
     .row.justify-content-center.align-items-center.mb-3
-      SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
-
-    p.mb-3 Dedicación de las organizaciones según su actividad y proceso
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.m-top.mb-0.cs
+    SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
+  
+    h4.mb-3 Dedicación de las organizaciones según su actividad y proceso
 
     p.mb-3 En Colombia la economía se estructura a partir del tipo de proceso de producción que desarrollan las empresas u organizaciones, las cuales, desde un enfoque clásico convencional, se dividen en tres sectores: 
 
@@ -55,7 +56,7 @@
             p.mb-3 Se compone de las empresas que tienen como actividad, el abastecimiento de la sociedad y el mercado en general de bienes y servicios de los otros sectores, o de proporcionar beneficios intangibles fundamentales a la sociedad, asegurando su correcto funcionamiento.
 
             p.mb-0 Se encuentran allí, el comercio, el turismo, la sanidad, la educación, entre otras.
-          
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5      
     Separador
 
     #t_1_1.titulo-segundo
@@ -111,7 +112,7 @@
         img(src='@/assets/curso/images/tema1/img_10.png')
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qnyD2OYF33c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -235,31 +236,31 @@ export default {
         titulo: 'Niveles y roles de la agrupación humana',
         texto:
           'Estas organizaciones de individuos, para que funcionaran, definieron niveles y roles por lo cual surge la división del trabajo.',
-        imagen: require('@/assets/curso/images/tema1/img_new.jpg'),
+        imagen: require('@/assets/curso/images/tema1/img_2.png'),
       },
       {
         titulo: 'Surgimiento de las normas y reglas',
         texto:
           'Del cumplimiento o incumplimiento de los roles y responsabilidades asignados a cada individuo, vino el surgimiento de las normas, con las cuales se busca la armonía, el alcance de metas y objetivos comunes que, inicialmente, se basaban en sobrevivir. ',
-        imagen: require('@/assets/curso/images/tema1/img_2.png'),
+        imagen: require('@/assets/curso/images/tema1/img_3.png'),
       },
       {
         titulo: 'Configuración del concepto de empresa',
         texto:
           'Por otro lado y con el desarrollo de las civilizaciones, surge el concepto de empresa, como el conjunto de acciones arduas y continuas, que las personas desarrollan para lograr un fin u objetivo.',
-        imagen: require('@/assets/curso/images/tema1/img_3.png'),
+        imagen: require('@/assets/curso/images/tema1/img_4.png'),
       },
       {
         titulo: 'Resignificación de la empresa moderna y las organizaciones',
         texto:
           'Con la aparición de las sociedades de trabajo, la administración de empresas homologa los dos términos empresa y organización, de manera que es indistinto referirse a ambos, pues denotan los mismos propósitos básicos.',
-        imagen: require('@/assets/curso/images/tema1/img_4.png'),
+        imagen: require('@/assets/curso/images/tema1/img_5.png'),
       },
       {
         titulo: 'Concepto de empresa u organización',
         texto:
           'En definitiva, se trata de un conjunto de personas que, de manera organizada y con el uso de recursos propios de su labor, desarrollan actividades con el fin de lograr objetivos comunes. Todo ello, en el marco de ciertas normas que favorecen tal cumplimiento de actividades y aseguran a los individuos que participan en ellas.',
-        imagen: require('@/assets/curso/images/tema1/img_5.png'),
+        imagen: require('@/assets/curso/images/tema1/img_6.png'),
       },
     ],
   }),

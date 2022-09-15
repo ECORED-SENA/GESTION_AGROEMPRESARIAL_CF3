@@ -2,18 +2,28 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 50%
+    right: 55%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 71%
+    right: 30%
+  &-3
+    animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 30%
+  &-4
+    animation: float1 7.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
     right: 30%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(70px)
 
   100%
     transform: translateY(0px)
@@ -62,6 +72,7 @@
 
 .color-custom-5
   background-color: #A3314F
+  box-shadow: 5px 5px 2px #48529944
 
 .color-custom-6
   background-color: #D2E1F1
@@ -104,7 +115,7 @@
     margin-top: -10px
     margin-left: 6px
     background-repeat: no-repeat
-    background-size: contain
+    background-size: cover
     width: 350px
   @media (max-width: 397px)
     margin-top: -10px
@@ -213,6 +224,11 @@
     background-repeat: no-repeat
     background-size: cover
     width: 350px
+
+.fondo
+  background-image: url('../assets/curso/images/tema1/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat
 
 .fondo-1
   background-image: url('../assets/curso/images/tema4/back_1.svg')

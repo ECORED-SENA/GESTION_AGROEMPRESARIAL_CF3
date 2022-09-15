@@ -25,7 +25,7 @@
             img(src='@/assets/curso/images/tema8/ico_1.svg' alt='AvatarTop')
           .tarjeta.color-custom-6
             .p-4
-              h3 Variables estratégicas
+              h5 Variables estratégicas
               p Desde el punto de vista comercial las variables estratégicas son los mercados en que opera o puede operar la empresa y los productos.
 
       .col-lg-6
@@ -34,7 +34,7 @@
             img(src='@/assets/curso/images/tema8/ico_3.svg')
           .tarjeta.color-custom-6
             .p-4
-              h3 Posición existente
+              h5 Posición existente
               p Las variables estratégicas son la posición existente, esto es cuando la empresa está inmersa en un mercado donde realiza su actividad y lleva los productos con que cuenta o los existentes con que genera los ingresos ordinarios.
       .col-lg-6
         .tarjeta-avatar-b.mb-5
@@ -42,7 +42,7 @@
             img(src='@/assets/curso/images/tema8/ico_2.svg' alt='AvatarTop')
           .tarjeta.color-custom-6
             .p-4
-              h3 Nuevos mercados
+              h5 Nuevos mercados
               p Las empresas tienen identificados mercados nuevos donde podrían operar, como también conciben la posibilidad de incursionar o desarrollar nuevos productos. 
 
       .col-lg-6
@@ -51,7 +51,7 @@
             img(src='@/assets/curso/images/tema8/ico_4.svg' alt='AvatarTop')
           .tarjeta.color-custom-6
             .p-4
-              h3 Matriz de Ansoff
+              h5 Matriz de Ansoff
               p A partir de las posibilidades que plantea la matriz de Ansoff, la empresa debe considerar sus iniciativas estratégicas y sus tácticas.
 
     h3.mb-5 Estrategias intensivas o agresivas
@@ -63,7 +63,8 @@
         img(src='@/assets/curso/images/tema8/img_2.svg')
 
     p.mb-3 Dentro de las estrategias intensivas o agresivas más representativas y usadas, se encuentran:
-
+  
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.m-top.mb-0.cs
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right") 
         PasosA.color-primario.mb-5(tipo="l")
@@ -93,7 +94,7 @@
             .col-md-2
               figure
                 img(src='@/assets/curso/images/tema8/ico_7.svg' alt='' , style="width:100px; display:block; margin:auto 0 ;")
-
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
     h3.mb-5 Estrategias de diversificación
 
     p.mb-3 Las empresas, en ocasiones, buscan mitigar el riesgo por concentración en la actividad y con ello se enfocan en fuentes alternativas de ingreso: productos nuevos para mercados nuevos a los que, tradicionalmente, atienden. Esta es una razón por la que, eventualmente, las empresas agrícolas optan por productos pecuarios, o industriales, que complementan la caja de sus ingresos.
@@ -107,7 +108,7 @@
       .col-lg-6(data-aos="fade-right") 
           p.mb-3 En el mercado actúan tanto oferentes como demandantes, los cuales intercambian bienes, productos o servicios, a través de un precio, que es la compensación que están dispuestos a dar y recibir por el producto.
 
-      .col-lg-5(data-aos="fade-left") 
+      .col-lg-4(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema8/img_3.png')
 
    
@@ -198,7 +199,7 @@
         img(src='@/assets/curso/images/tema8/img_5.svg' alt='', style="width:500px; display:block; margin:auto 0;")
 
     .row.justify-content-evenly.align-items-star.p-2
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema8/img_6.svg' alt='', style="width:500px; display:block; margin:auto 0;").mb-3
       .col-lg-6(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="zoom-in-down")
@@ -224,13 +225,16 @@
       .h2 8.3 Plan de mercadeo 
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-8(data-aos="fade")
+      .col-lg-5(data-aos="fade-left")
         p.mb-3 El plan de mercadeo es un documento que plasma la iniciativa estratégica hacia un mercado y que facilita obtener resultados comerciales. Define cómo la empresa en un periodo de tiempo que regularmente es anual, desarrolla acciones para alcanzar resultados en mercados donde decide operar.
 
         p.mb-0 El propósito del plan de mercadeo es trazar una ruta de acciones tácticas que obedecen a un enfoque estratégico y llegar al público objetivo o segmento elegidos, de manera que se logren los objetivos empresariales de rentabilidad y funcionales de ventas y posicionamiento y participación.
 
-      .col-lg-4.mb-3(data-aos="fade-right") 
-        img.mt-5(src='@/assets/curso/images/tema8/img_new.svg'  alt='')
+      .col-lg-6.mb-3(data-aos="fade-right") 
+        .titulo-sexto.color-acento-botones
+          h5 Figura 4
+        span <i>Proceso para la fijación de un plan de mercadeo</i>
+        img.mt-5(src='@/assets/curso/images/tema8/img_new_1.svg'  alt='')
 
       
     Separador
@@ -239,13 +243,13 @@
       .h2 8.4  Análisis diagnóstico
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-6(data-aos="fade")
+      .col-lg-6(data-aos="fade-right") 
         p.mb-3 Se trata de la descripción del estado actual general de las operaciones comerciales de la empresa, así como de su entorno y condiciones internas. El resultado será una matriz DOFA (debilidades, fortalezas, amenazas, y oportunidades), en relación con las variables estratégicas comerciales como: posición competitiva, participación en el mercado, nicho de actuación en el mercado, análisis de marca, entre otros aspectos.
 
           .cajon.color-custom-2.p-4        
             p.mb-0 Las fortalezas son las que hacen que una empresa sea única (por qué su producto o servicio proporciona un valor superior frente a la competencia), mientras que las debilidades reflejan todo aquello susceptible de mejorar a nivel interno como la falta de personal o equipamiento. El contexto socioeconómico, los competidores, la tecnología y otros factores externos dan forma a oportunidades y amenazas.
 
-      .col-lg-6.mb-3(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema8/img_8.png'  alt='')
 
     .row.justify-content-around.align-items-center.mb-5(data-aos="zoom-in-right")
@@ -283,15 +287,15 @@
     .row.justify-content-center.align-items-star.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-botones
-          h5 Figura 4
+          h5 Figura 5
           span <i>Control y seguimiento al plan de mercadeo</i>
 
     .row.align-items-center.justify-content-end.mb-5
-      .col-lg-12(data-aos="fade-right") 
+      .col-lg-12(data-aos="zoom-in-up")
         img(src='@/assets/curso/images/tema8/fig_1.svg')
 
     .row.justify-content-center.align-items-center.p-2 
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-right")
         p.mb-3 Algunas generalidades clave del seguimiento al plan y sus actividades, son:
         LineaTiempoD.color-secundario.especial
           .row(titulo='Medición del desempeño' numero='1')
@@ -315,7 +319,7 @@
                 p.mb-0  Las empresas, en la actualidad, cuentan con muchos recursos técnicos y tecnológicos que facultan sus seguimientos a los planes y permiten recoger información de los indicadores de gestión con el fin de detallar el comportamiento y trazabilidad de las acciones.
 
  
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema8/img_9.png' alt='', style="width:500px; display:block; margin:auto 0;")
 
 

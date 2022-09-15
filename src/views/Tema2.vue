@@ -24,7 +24,7 @@
         .jumbotron-2
           p.text-center.p-2.mb-0 <b>Fases de la planeación estratégica en empresas agropecuarias</b>
 
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade")
         ImagenInfografica.color-secundario.mb-5
@@ -33,28 +33,28 @@
               img(src='@/assets/curso/images/tema2/fig_1.svg', alt='Texto que describa la imagen')
        
 
-          .tarjeta.color-custom-4.p-3(x="59%" y="72%" numero="1")
+          .tarjeta.color-custom-4.p-3(x="65%" y="73%" numero="1")
             .h5.mb-2 Producción
             p De productos agrícolas o pecuarios.
 
-          .tarjeta.color-custom-4.p-3(x="40%" y="5%" numero="3")
+          .tarjeta.color-custom-4.p-3(x="46%" y="2%" numero="3")
             .h5.mb-2 Consumo
             p Adquisición directa o indirecta de los productos por parte de usuarios o clientes (personas u otras empresas).
 
-          .tarjeta.color-custom-4.p-3(x="31%" y="71%" numero="2")
+          .tarjeta.color-custom-4.p-3(x="37%" y="72%" numero="2")
             .h5.mb-2 Distribución
             p Distribución reparto o transferencia de los productos agropecuarios a zonas de influencia de la empresa.
 
-          .tarjeta.color-custom-4.p-3(x="92%" y="9%" numero="4")
+          .tarjeta.color-custom-4.p-3(x="100%" y="7%" numero="3")
             .h5.mb-2 Comercialización
             p La distribución facilita la comercialización y el mercadeo
 
-          .tarjeta.color-custom-4.p-3(x="81%" y="51%" numero="5")
+          .tarjeta.color-custom-4.p-3(x="87%" y="52%" numero="5")
             .h5.mb-2 Mercadeo
             p El mercadeo a su vez será el gran mecanismo que promoverá al consumo.
 
     p.mb-3 Se debe profundizar en los aspectos característicos y más destacados de la planeación estratégica, los cuales se enuncian y detallan a continuación:
-
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
     .row.justify-content-center.align-items-center.mb-3
       SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
 
@@ -62,78 +62,79 @@
 
     .tarjeta.back-line.p-4.mb-5(data-aos="zoom-in-down")
       LineaTiempoC.color-acento-contenido(text-small)
-        .row.justify-content-center.align-items-star(titulo="")
+        .row.justify-content-center.align-items-center(titulo="")
           .col-md-7
             h3 Los objetivos
             p.mb-3 Refieren a los diferentes niveles de alcance y/o resultado deseado dentro de los propósitos de la empresa, estos se pueden clasificar en corporativos y específicos.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_1.svg", alt='', style="width:120px; display:block; margin:auto 0 ;").mb-3
+              img(src="@/assets/curso/images/tema2/ico_1.svg", alt='', style="width:140px; display:block; margin:auto 0 ;").mb-3
 
-        .row.justify-content-center.align-items-star(titulo="")
+        .row.justify-content-center.align-items-center(titulo="")
           .col-md-7
             h3 Objetivos corporativos
             p.mb-3 Aquellos que la empresa persigue en el desarrollo de su actividad como, por ejemplo, rentabilidad, participación en el mercado por ventas, crecimiento y expansión, etc.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_2.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_2.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
                   
-        .row.justify-content-center.align-items-star(titulo="")       
+        .row.justify-content-center.align-items-center(titulo="")       
           .col-md-7
             h3 Objetivos específicos
             p.mb-3 Parten de los corporativos y se fijan desde las iniciativas de las líneas de producto, es decir, los niveles de alcance que tendrá cada línea de producto contribuirán al logro de los objetivos corporativos. Ejemplo: si el objetivo corporativo es crecimiento y expansión en el mercado, los objetivos específicos deben indicar con qué producto y a qué lugares, qué segmento de mercado, en qué magnitud de ventas, etc. 
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_3.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
-        .row.justify-content-center.align-items-star(titulo="")    
+              img(src="@/assets/curso/images/tema2/ico_3.svg",  alt='', style="width:150px; display:block; margin:auto 0 ;")
+        .row.justify-content-center.align-items-center(titulo="")    
           .col-md-7
             h3 Para el sector agropecuario
             p.mb-3  Los fines objetivos que establezca la empresa en el sector agropecuario, tienen un marcado y específico período de tiempo, dada la naturaleza de sus productos, lo que facilita su control y seguimiento.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_4.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_4.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
 
-        .row.justify-content-center.align-items-star(titulo="")          
+        .row.justify-content-center.align-items-center(titulo="")          
           .col-md-7
             h3 Estrategias
             p.mb-3 Conjunto de decisiones fundamentales e interfuncionales que fijan los cursos de acción general, que indican cómo deberán utilizarse los recursos y metodologías productivas para el logro de los objetivos. 
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_5.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_5.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
                   
-        .row.justify-content-center.align-items-star(titulo="")
+        .row.justify-content-center.align-items-center(titulo="")
           .col-md-7
             h3 Políticas y normas
             p.mb-3 Conjunto de disposiciones para el desarrollo de actividades empresariales. #[span.color-text Las normas ] son de carácter obligatorio e impartidas por los entes regulatorios del sector, quienes definen los lineamientos generales para tomar el ejercicio de la actividad agropecuaria y fijan guías que orientan la acción y constituyen base para las decisiones en la empresa. Las políticas pueden ser establecidas por la empresa, son de carácter discrecional y complementan las normas dispuestas.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_6.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
           
-        .row.justify-content-center.align-items-star(titulo="")    
+        .row.justify-content-center.align-items-center(titulo="")    
           .col-md-7
             h3 Plan de acción
             p.mb-3 Determina el procedimiento, establece el conjunto de actividades propiamente dichas a realizar dentro de una secuencia, para el logro de los objetivos y obedece al enfoque estratégico previsto; el plan de acción hace que las acciones tengan un orden cronológico y la secuencia de actividades que deben seguirse estrictamente durante la realización del plan.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_7.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
 
 
-        .row.justify-content-center.align-items-star(titulo="")          
+        .row.justify-content-center.align-items-center(titulo="")          
           .col-md-7
             h3 Los presupuestos
             p.mb-3 Es la determinación del nivel de recursos necesarios para el desarrollo de las actividades definidas en el plan de acción, expresado en cantidad y valor de dichos recursos, que son los planes expresados en términos económicos.
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
+              img(src="@/assets/curso/images/tema2/ico_8.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
 
-        .row.justify-content-center.align-items-star(titulo="")          
+        .row.justify-content-center.align-items-center(titulo="")          
           .col-md-7
             h3 Cronograma
             p.mb-3 Es la correlación de las actividades y recursos en función del tiempo, esto es, la programación de cada una de las actividades del plan en un horizonte de tiempo, lo que implica la utilización de los recursos necesarios al momento de su realización, por lo cual estos deben estar disponibles en cantidad y funcionalidad al momento de iniciar las actividades. 
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/images/tema2/ico_9.svg",  alt='', style="width:120px; display:block; margin:auto 0 ;")
-
+              img(src="@/assets/curso/images/tema2/ico_9.svg",  alt='', style="width:140px; display:block; margin:auto 0 ;")
+  
+    
     Separador
 
     #t_2_1.titulo-segundo
@@ -196,7 +197,7 @@
         img(src='@/assets/curso/images/tema2/img_7.png')
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/tTTeEk2PySs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

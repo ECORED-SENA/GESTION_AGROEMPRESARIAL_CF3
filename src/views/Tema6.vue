@@ -28,11 +28,11 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right") 
         .jumbotron-3.p-4.mb-3.mt-3
-          h3.mb-3 Fuentes primarias
+          h4.mb-3 Fuentes primarias
           p.mb-0 Las fuentes primarias de información producen, generan, elaboran datos e información original, que ha sido publicada directamente por quienes dominan los procesos o las actividades, evidenciando los registros: datos tal cual ocurren.
       .col-lg-6(data-aos="fade-left")
         .jumbotron-3.p-4.mb-3
-          h3 Fuentes secundarias
+          h4 Fuentes secundarias
           p.mb-0 Promueven y difunden información primaria, la cual sintetizan, le realizan análisis y reorganizan. Facilitan y maximizan el acceso a datos, permitiendo mayor alcance. Si bien son una fuente válida de información presentan cierto nivel de riesgo ya que, al ser información reprocesada, reorganizada, puede incurrir en imprecisiones o desviaciones de su sentido inicial.
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
@@ -57,7 +57,7 @@
 
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6(data-aos="fade-right") 
-          h3.mb-3 Reconocimiento de fuentes y citación de autoría
+          h4.mb-3 Reconocimiento de fuentes y citación de autoría
           p.mb-3 El desarrollo de un diagnóstico empresarial debe contemplar el registro y citación de las fuentes de información, autores, etc., al momento de la redacción y en la generación del informe general, así como de los resultados parciales en la identificación de los aspectos externos e internos.
 
           p.mb-3 El líder del proceso y su equipo deberán compilar esta información de fuentes y procedencia de la información de fuentes externas, utilizada por cada una de las diferentes instancias y áreas funcionales de la empresa, la cual debe ser suministrada por la misma, al momento del envió de su información y presentada de igual manera en el informe general del diagnóstico empresarial como en la bibliografía.
@@ -103,6 +103,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Informes")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Informes
                 p.mb-0 Todo informe debe presentar diferentes contenidos o capítulos, dependiendo del tipo de información por comunicar, indicando la metodología o proceso al cual refiere y si será un documento al público en general o para algunos usuarios, lo que es potestativo de la empresa por ser esta de carácter discrecional y fundamental para la toma de decisiones del futuro inmediato.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_8.png')
@@ -110,6 +111,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Boletines")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Boletines
                 p.mb-0 Sirven de soporte a los informes físicos. Son desagregaciones resumidas de los procesos, de resultados de la empresa, así como de aspectos propios de la actividad empresarial, donde se utiliza información estadística y descriptiva, que puede ser cuantitativa o cualitativa muy sintetizada. Pueden ser ocasionales o seriados; es decir, con una frecuencia definida por la empresa.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_9.png')
@@ -118,6 +120,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Difusión por página <i>web</i> o intranet")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Difusión por página <i>web</i> o intranet
                 p.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página <i>web</i> empresarial (pública). Asimismo, la información exclusiva de la organización, para efecto de sus comunicaciones, coordinación y desarrollo de actividades, resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados  y personas vinculadas con la empresa. 
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_10.png')
@@ -125,6 +128,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Validación de la información ofrecida")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Validación de la información ofrecida
                 p.mb-0 En cada una de estas alternativas y técnicas para la presentación y difusión de la información empresarial se debe tener visto bueno sobre su contenido, lo cual obedece a un ejercicio interactivo y de coordinación en un comité de gestión y comunicaciones.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema6/img_11.png')

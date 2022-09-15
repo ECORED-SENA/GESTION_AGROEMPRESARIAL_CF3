@@ -12,7 +12,7 @@
     p.mb-5 Se da la bienvenida al estudio del componente “Iniciativas estratégicas y de mercado en la empresa”;  se desea que todos los participantes tengan una buena experiencia de aprendizaje. Se debe comenzar con la visualización del video que se muestra enseguida. ¡Adelante!
     
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jjt4rYt9A4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
    

@@ -42,6 +42,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico funcional")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Diagnóstico funcional
                 p.mb-0 Busca identificar variables relevantes en la comunicación interna, que repercuten en la operación bien sea administrativa, comercial o de producción; variables que pueden estar afectando la productividad o ciclo del negocio. El diagnóstico funcional permite, mediante el uso de cuestionarios, entrevistas, sistematización de experiencias, análisis grupal, establecer los mecanismos de comunicación generales de toda la organización.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema3/img_2.png')
@@ -49,6 +50,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico específico")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Diagnóstico específico
                 p.mb-0 Permite determinar el estado actual de un proceso específico en la empresa, unidad de negocio o línea de producto, analizando los diferentes aspectos relacionados como estados financieros, proceso de mercadeo y ventas, gestión de producción de la empresa, administración del talento humano, entre otros.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema3/img_3.png')
@@ -57,6 +59,7 @@
           .tarjeta.back-tab.px-5.py-4(titulo="Diagnóstico organizacional integral")
             .row.align-items-center.align-items-center
               .col-12.col-lg-6.mb-4.mb-lg-0
+                h4 Diagnóstico organizacional integral
                 p.mb-0 Diagnóstico global que abarca un análisis de todos los procesos y funciones de la empresa; incluye variables y aspectos de los anteriores diagnósticos, implica el análisis de factores externos e internos determinado su posición relativa de competitividad, es decir, identifica qué aspectos la están conduciendo al éxito y cuáles se han descuidado en su capacidad productiva y de crecimiento. Tiene un enfoque eminentemente estratégico a largo plazo.
               .col-12.col-lg-6.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema3/img_4.png')
@@ -84,9 +87,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-lg-2
-                  img.mx-5(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h3.text-white Herramientas De Análisis Diagnostica
+                  h6.text-white Herramientas De Análisis Diagnostica
                   p.mb-1.text-white A continuación le invitamos a profundizar a acerca de las diferentes herramientas de análisis y diagnóstico organizacional
                 .col-md-2
                   a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_1_HerramientasAnalisisDiasgnostica.pdf')" target="_blank")

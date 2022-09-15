@@ -32,9 +32,9 @@
         img(src='@/assets/curso/images/tema5/img_2.png')
 
     .row.align-items-center.justify-content-between.mb-5
-      .col-lg-6(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema5/img_3.png').mb-3
       .col-lg-6(data-aos="fade-right") 
+        img(src='@/assets/curso/images/tema5/img_3.png').mb-3
+      .col-lg-6(data-aos="fade-left") 
         ul.lista-ul--color
           li 
             i.fas.fa-angle-right
@@ -54,9 +54,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-md-2
-                  img.mx-5(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h3.text-white Gestión De Inventarios
+                  h6.text-white Gestión De Inventarios
                   p.mb-1.text-white Amplíe su saber sobre manejo de existencias de inventario.
                 .col-md-3
                   a.boton.color-custom-8(:href="obtenerLink('downloads/Anexo_2_GestionDeInventarios.pdf')" target="_blank")

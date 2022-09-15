@@ -9,10 +9,10 @@
 
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6(data-aos="fade-right") 
+        
+        p.mb-3 En general, se trata de la capacidad que tienen las personas de interpretar, transmitir o concebir ideas, conceptos, emociones, sobre hechos o acciones que tienen impacto sobre sí. Ideas que, potencialmente, previenen situaciones, anuncian circunstancias, expresan intenciones, facilitan el entendimiento y la interacción entre de las personas.
         .jumbotron-4.p-4.mb-3
-          p.mb-3 En general, se trata de la capacidad que tienen las personas de interpretar, transmitir o concebir ideas, conceptos, emociones, sobre hechos o acciones que tienen impacto sobre sí. Ideas que, potencialmente, previenen situaciones, anuncian circunstancias, expresan intenciones, facilitan el entendimiento y la interacción entre de las personas.
-
-        p.mb-3 Todas las empresas del sector agropecuario deben concebir la comunicación como un recurso mediador que busca promover, influir, persuadir, e informar a sus grupos estratégicos, clientes, empleados, accionistas y a la sociedad, sobre sus actuaciones y oferta de productos y beneficios, etc. Debe ser concebida como una herramienta estratégica para la gerencia de las organizaciones en pro de su desarrollo de mercado.
+          p.mb-3 Todas las empresas del sector agropecuario deben concebir la comunicación como un recurso mediador que busca promover, influir, persuadir, e informar a sus grupos estratégicos, clientes, empleados, accionistas y a la sociedad, sobre sus actuaciones y oferta de productos y beneficios, etc. Debe ser concebida como una herramienta estratégica para la gerencia de las organizaciones en pro de su desarrollo de mercado.
 
         p.mb-0 En el siguiente video, se pueden conocer y profundizar en las formas de clasificación de la comunicación dentro de las empresas:
 
@@ -20,7 +20,7 @@
         img(src='@/assets/curso/images/tema7/img_1.svg')
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eLtu6RBqHI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
@@ -104,7 +104,7 @@
     p.mb-3 Estos son algunos aspectos clave que sobre el proceso de comunicación para las organizaciones, hay que tener muy presentes:
 
     .row.justify-content-center.align-items-center.p-2 
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-right")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Canal' numero='1')
             .row.justify-content-center.align-items-star
@@ -130,7 +130,7 @@
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0  En algunos casos, la acción comunicativa requiere de procesos de retroalimentación, que pueden implicar un nuevo ciclo de transferencia de información o mensaje.
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-left")
         img(src='@/assets/curso/images/tema7/img_3.svg' alt='', style="width:500px; display:block; margin:auto 0;")
 
 

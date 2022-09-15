@@ -15,7 +15,7 @@
        
       .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema4/img_1.svg')
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+  
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
       .py-4.py-md-4.mg-top-2(titulo="Recursos humanos")
@@ -55,7 +55,8 @@
             p.mb-3 Recursos eminentemente monetarios que necesita la empresa para el desarrolla de las actividades, los cuales pueden ser:
             p.mb-3 #[span.color-text Propios:] caja, bancos, inversiones temporales que tenga la empresa (acciones, CDT, bonos, etc.), cuentas por cobrar.
             p.mb-0 #[span.color-text Ajenos:] créditos (bancarios, Findeter, Bancoldex, Finagro o  extrabancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
-    
+  
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
     h3.mb-3 Herramientas para la estimación de recursos
 
     .row.justify-content-center.align-items-star.mb-3
@@ -76,9 +77,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-lg-2
-                  img.mx-5(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h3.text-white Tabla 1 Estimación de recursos
+                  h6.text-white Tabla 1 Estimación de recursos
                   p.mb-1.text-white Analice la tabla que describe la técnica para la asignación y estimación de recursos para el desarrollo de las actividades.
                 .col-md-2
                   a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_Presupuesto_recursos.xlsx')" target="_blank")
