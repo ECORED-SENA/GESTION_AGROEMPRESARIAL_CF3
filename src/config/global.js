@@ -16,12 +16,16 @@ export default {
         imagen: require('@/assets/curso/images/header/2.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/images/header/3.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
+        clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/images/header/4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/images/header/5.svg'),
       },
     ],
   },

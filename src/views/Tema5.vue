@@ -56,7 +56,7 @@
                 .col-md-2
                   img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h6.text-white Gestión De Inventarios
+                  h5.text-white Gestión De Inventarios
                   p.mb-1.text-white Amplíe su saber sobre manejo de existencias de inventario.
                 .col-md-3
                   a.boton.color-custom-8(:href="obtenerLink('downloads/Anexo_2_GestionDeInventarios.pdf')" target="_blank")

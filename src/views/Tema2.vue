@@ -22,7 +22,7 @@
     .row.align-items-center.justify-content-center.p-4
       .col-lg-8
         .jumbotron-2
-          p.text-center.p-2.mb-0 <b>Fases de la planeación estratégica en empresas agropecuarias</b>
+          p.text-center.p-2.mb-3 <b>Fases de la planeación estratégica en empresas agropecuarias</b>
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5

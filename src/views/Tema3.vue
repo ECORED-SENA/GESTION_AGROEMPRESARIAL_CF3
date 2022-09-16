@@ -89,7 +89,7 @@
                 .col-lg-2
                   img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h6.text-white Herramientas De Análisis Diagnostica
+                  h5.text-white Herramientas De Análisis Diagnostica
                   p.mb-1.text-white A continuación le invitamos a profundizar a acerca de las diferentes herramientas de análisis y diagnóstico organizacional
                 .col-md-2
                   a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_1_HerramientasAnalisisDiasgnostica.pdf')" target="_blank")

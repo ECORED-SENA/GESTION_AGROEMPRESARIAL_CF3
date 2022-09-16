@@ -225,7 +225,7 @@
       .h2 8.3 Plan de mercadeo 
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left")
         p.mb-3 El plan de mercadeo es un documento que plasma la iniciativa estratégica hacia un mercado y que facilita obtener resultados comerciales. Define cómo la empresa en un periodo de tiempo que regularmente es anual, desarrolla acciones para alcanzar resultados en mercados donde decide operar.
 
         p.mb-0 El propósito del plan de mercadeo es trazar una ruta de acciones tácticas que obedecen a un enfoque estratégico y llegar al público objetivo o segmento elegidos, de manera que se logren los objetivos empresariales de rentabilidad y funcionales de ventas y posicionamiento y participación.

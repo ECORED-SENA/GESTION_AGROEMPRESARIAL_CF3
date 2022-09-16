@@ -7,26 +7,39 @@
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 71%
-    right: 30%
+    top: 41%
+    right: 70%
   &-3
     animation: float1 5.8s ease-in-out infinite alternate
     position: absolute
-    top: 31%
-    right: 30%
+    top: 61%
+    right: 18%
   &-4
     animation: float1 7.8s ease-in-out infinite alternate
     position: absolute
     top: 71%
     right: 30%
+  &-5
+    animation: rotation 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 3%
 
-
+@keyframes rotation
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(359deg)
+ 
 @keyframes float1
   0%
     transform: translateY(70px)
 
   100%
     transform: translateY(0px)
+
+
+
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: #000
@@ -72,7 +85,7 @@
 
 .color-custom-5
   background-color: #A3314F
-  box-shadow: 5px 5px 2px #48529944
+  box-shadow: 2px 4px 8px #cdcdcd
 
 .color-custom-6
   background-color: #D2E1F1

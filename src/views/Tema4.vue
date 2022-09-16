@@ -79,7 +79,7 @@
                 .col-lg-2
                   img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
-                  h6.text-white Tabla 1 Estimación de recursos
+                  h5.text-white Tabla 1 Estimación de recursos
                   p.mb-1.text-white Analice la tabla que describe la técnica para la asignación y estimación de recursos para el desarrollo de las actividades.
                 .col-md-2
                   a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_Presupuesto_recursos.xlsx')" target="_blank")
