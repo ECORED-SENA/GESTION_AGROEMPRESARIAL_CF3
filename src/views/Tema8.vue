@@ -287,7 +287,7 @@
     .row.justify-content-center.align-items-star.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-botones
-          h5 Figura 5
+          h5 Figura 4
           span <i>Control y seguimiento al plan de mercadeo</i>
 
     .row.align-items-center.justify-content-end.mb-5

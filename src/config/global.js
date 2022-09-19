@@ -141,8 +141,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo:
-              'Sobre las fuentes de información, es clave tener en cuenta los siguientes aspectos',
+            titulo: 'Técnicas de presentación y compilación de información',
             hash: 't_6_2',
           },
         ],
@@ -295,7 +294,7 @@ export default {
     },
     {
       referencia:
-        'Rodríguez, D. (2012). Diagnóstico organizacional. Alfa Omega Grupo Editor,S.A.',
+        'Rodríguez, D. (2012). Diagnóstico organizacional. Alfa Omega Grupo Editor, S.A.',
     },
     {
       referencia:
@@ -320,7 +319,7 @@ export default {
         'Es la acción de registrar la información que se desea analizar a través de un instrumento como pueden ser formularios, cuestionarios o entrevistas grabadas, etc.',
     },
     {
-      termino: 'Conclusiones diagnósticas ',
+      termino: 'Conclusiones diagnósticas',
       significado:
         'Son el conjunto de aspectos más relevantes para la empresa, que son críticas por su nivel de impacto. Pueden ser aspectos a mejorar o consolidar, pueden por ende estar en condición de desventaja o de ventaja competitiva, y sobre las cuales se adelantarán acciones o vigilancia y control.',
     },

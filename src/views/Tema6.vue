@@ -25,7 +25,7 @@
         img(src='@/assets/curso/images/tema6/fig_1.svg')
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-3
       .col-lg-4(data-aos="fade-right") 
         .jumbotron-3.p-4.mb-3.mt-3
           h4.mb-3 Fuentes primarias
@@ -34,6 +34,8 @@
         .jumbotron-3.p-4.mb-3
           h4 Fuentes secundarias
           p.mb-0 Promueven y difunden información primaria, la cual sintetizan, le realizan análisis y reorganizan. Facilitan y maximizan el acceso a datos, permitiendo mayor alcance. Si bien son una fuente válida de información presentan cierto nivel de riesgo ya que, al ser información reprocesada, reorganizada, puede incurrir en imprecisiones o desviaciones de su sentido inicial.
+    
+    p.mb-5 Sobre las fuentes de información, es clace tener en cuenta los siguientes aspectos:
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA
@@ -91,7 +93,7 @@
     Separador
 
     #t_6_2.titulo-segundo
-      .h2 6.2 Sobre las fuentes de información, es clave tener en cuenta los siguientes aspectos
+      .h2 6.2  Técnicas de presentación y compilación de información
 
     p.mb-3 Frecuentemente, la información empresarial se compila y presenta a través de instrumentos que aportan al diagnóstico, a la notificación de avances al plan estratégico, a la difusión de la comercialización y de la producción o, en general, a dar cuenta de los procesos micro y macro de la gestión empresarial.
 
