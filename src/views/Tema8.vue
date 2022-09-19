@@ -232,7 +232,7 @@
 
       .col-lg-6.mb-3(data-aos="fade-right") 
         .titulo-sexto.color-acento-botones
-          h5 Figura 4
+          h5 Figura 3
         span <i>Proceso para la fijación de un plan de mercadeo</i>
         img.mt-5(src='@/assets/curso/images/tema8/img_new_1.svg'  alt='')
 

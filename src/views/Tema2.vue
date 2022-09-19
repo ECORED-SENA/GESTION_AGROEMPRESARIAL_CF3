@@ -43,9 +43,9 @@
 
           .tarjeta.color-custom-4.p-3(x="37%" y="72%" numero="2")
             .h5.mb-2 Distribución
-            p Distribución reparto o transferencia de los productos agropecuarios a zonas de influencia de la empresa.
+            p Reparto o transferencia de los productos agropecuarios a zonas de influencia de la empresa.
 
-          .tarjeta.color-custom-4.p-3(x="100%" y="7%" numero="3")
+          .tarjeta.color-custom-4.p-3(x="100%" y="7%" numero="4")
             .h5.mb-2 Comercialización
             p La distribución facilita la comercialización y el mercadeo
 
@@ -162,16 +162,16 @@
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0  En este tipo de proyecto se enmarcan productos de mayor maduración para su desarrollo y producción, hasta llegar a los primeros consumos. Por ejemplo, la plantación de un lote de frutales que requiere el tiempo que transcurre desde la siembra hasta la maduración de la planta y sus primeras producciones, lo cual, según la variedad, puede tardar hasta tres años. Así mismo con la producción de derivados de algunas especies animales.
 
-
-          .row(titulo='Planes de corto plazo' numero='3')
-            .row.justify-content-center.align-items-star
-              .col-12.col-lg-12.mb-4.mb-lg-0
-                p.mb-0 Iniciativas que fijan un horizonte inferior a un año donde, regularmente, su desarrollo se mide en semanas. Este tipo de planes exige un trabajo muy puntual y disciplinado en su desarrollo.
-
-          .row(titulo='Planes a mediano plazo' numero='4')
+          .row(titulo='Planes a mediano plazo' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-12.mb-4.mb-lg-0
                 p.mb-0 Son aquellas iniciativas estratégicas con un periodo comprendido entre uno a dos años, en promedio. Por ejemplo, nuevas plantaciones de algunos frutales, las cuales requieren el desarrollo de las plantas hasta sus primeras producciones.
+
+          .row(titulo='Planes de corto plazo' numero='4')
+            .row.justify-content-center.align-items-star
+              .col-12.col-lg-12.mb-4.mb-lg-0
+                p.mb-0 Iniciativas que fijan un horizonte inferior a un año donde, regularmente, su desarrollo se mide en semanas. Este tipo de planes exige un trabajo muy puntual y disciplinado en su desarrollo.
+     
             
           .row(titulo='Iniciativas de los planes a corto plazo' numero='5')
             .row.justify-content-center.align-items-star

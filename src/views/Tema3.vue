@@ -9,7 +9,7 @@
 
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6(data-aos="fade-right") 
-          p.mb-3 Un diagnóstico es una investigación que las empresas realizan para determinar el estado actual de condiciones en que se opera en la actualidad. Se puede decir que el diagnóstico es la interpretación real de la organización o el marco de referencia de operación, que le sirve para tomar decisiones frente propósitos empresariales, objetivos o metas proyectadas.
+          p.mb-3 Un diagnóstico es una investigación que las empresas realizan para determinar el estado actual de condiciones en que se opera en la actualidad. Se puede decir que el diagnóstico es la interpretación real de la organización o el marco de referencia de operación, que le sirve para tomar decisiones frente a propósitos empresariales, objetivos o metas proyectadas.
 
           p.mb-3 El diagnóstico empresarial para el empresario contemporáneo es una herramienta de gestión que:
 
@@ -71,7 +71,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-6(data-aos="fade")
-        p.mb-3 En primera instancia para un diagnóstico de mercado agropecuario se recomienda la revisión de informaciones estadísticas publicadas y disponibles, como estudios relacionados con el sector y su capacidad, tipos de producción etc. Ejercicio que se recomienda hacer tanto para la oferta como para la demanda, dentro de la región o zona de influencia de la empresa.
+        p.mb-3 En primera instancia para un diagnóstico de mercado agropecuario se recomienda la revisión de informaciones estadísticas publicadas y disponibles, como estudios relacionados con el sector y su capacidad, tipos de producción, etc. Ejercicio que se recomienda hacer tanto para la oferta como para la demanda, dentro de la región o zona de influencia de la empresa.
 
           .cajon.color-custom-2.p-4        
             p.mb-0 En esta revisión es importante verificar variables cualitativas y cuantitativas para toma de decisiones frente a alternativas productivas; además, hacer un estudio y evaluación de disponibilidad de espacios o de tierras contempladas para el uso e incluir en la planificación productiva. 

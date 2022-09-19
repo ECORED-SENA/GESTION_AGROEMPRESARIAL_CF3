@@ -52,7 +52,7 @@
             img(src="@/assets/curso/images/tema4/img_4.png").m-auto
           .col-12.col-md-7.mb-3.mb-md-0
             h3 Recursos Financieros
-            p.mb-3 Recursos eminentemente monetarios que necesita la empresa para el desarrolla de las actividades, los cuales pueden ser:
+            p.mb-3 Recursos eminentemente monetarios que necesita la empresa para el desarrollo de las actividades, los cuales pueden ser:
             p.mb-3 #[span.color-text Propios:] caja, bancos, inversiones temporales que tenga la empresa (acciones, CDT, bonos, etc.), cuentas por cobrar.
             p.mb-0 #[span.color-text Ajenos:] créditos (bancarios, Findeter, Bancoldex, Finagro o  extrabancarios), cuentas por pagar, inversiones temporales (acciones comunes o preferenciales, bonos).
   

@@ -18,15 +18,16 @@
         img(src='@/assets/curso/images/tema1/img_1.png')
   
     .row.justify-content-center.align-items-center.mb-3
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo.m-top.mb-0.cs
+  .container.bg-white.px-md-5.py-2.container-top.fondo.m-top.mb-0.cs
     SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
   
     h4.mb-3 Dedicación de las organizaciones según su actividad y proceso
 
     p.mb-3 En Colombia la economía se estructura a partir del tipo de proceso de producción que desarrollan las empresas u organizaciones, las cuales, desde un enfoque clásico convencional, se dividen en tres sectores: 
 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-down")
-      .py-4.py-md-4.mg-top-2(titulo="Sector primario")
+      .py-4.py-md-4(titulo="Sector primario")
         .row.justify-content-center.p-5
           .col-12.col-md-5.mb-3.mb-md-0
               img(src="@/assets/curso/images/tema1/img_6_1.png").m-auto
@@ -36,7 +37,7 @@
             p.mb-0 Su producción se orienta en gran medida a soportar o abastecer los procesos industriales de transformación y elaboración de productos o bienes. También se le denomina sector extractivo. En este sector se ubican las empresas agropecuarias, la pesca, la minería.
           
 
-      .py-3.py-md-4.mg-top-2(titulo="Sector secundario")
+      .py-3.py-md-4(titulo="Sector secundario")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema1/img_7.png").m-auto
@@ -47,7 +48,7 @@
             p.mb-0 Transforman materias primas en productos elaborados: cárnicos, lácteos, construcción, industria, marroquinería, etc.
           
 
-      .py-3.py-md-4.mg-top-2(titulo="Sector terciario o servicios")
+      .py-3.py-md-4(titulo="Sector terciario o servicios")
         .row.justify-content-center.align-items-center.p-4
           .col-12.col-md-5.mb-3.mb-md-0
             img(src="@/assets/curso/images/tema1/img_8.png").m-auto
@@ -55,8 +56,8 @@
             h3 Sector terciario o servicios
             p.mb-3 Se compone de las empresas que tienen como actividad, el abastecimiento de la sociedad y el mercado en general de bienes y servicios de los otros sectores, o de proporcionar beneficios intangibles fundamentales a la sociedad, asegurando su correcto funcionamiento.
 
-            p.mb-0 Se encuentran allí, el comercio, el turismo, la sanidad, la educación, entre otras.
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5      
+                p.mb-0 Se encuentran allí, el comercio, el turismo, la sanidad, la educación, entre otras.
+      
     Separador
 
     #t_1_1.titulo-segundo

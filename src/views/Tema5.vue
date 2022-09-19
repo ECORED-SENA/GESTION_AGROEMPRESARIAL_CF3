@@ -20,7 +20,7 @@
           ul.lista-ul--color
             li 
               i.fas.fa-angle-right
-              p <b>Inventarios de materias primas:</b>recursos esenciales para la elaboración o fabricación de bienes o productos. 
+              p <b>Inventarios de materias primas:</b> recursos esenciales para la elaboración o fabricación de bienes o productos. 
             li 
               i.fas.fa-angle-right
               p <b>Inventarios de productos en proceso:</b> materias primas, que ya han sufrido algún proceso de agregación de valor o transformación, pero que aún no han sido terminados totalmente (producción de huevos que no han sido preparados, pesados, y embalados / leche que se encuentra pasteurizada pero no empacada, está en silos).
@@ -41,7 +41,7 @@
             p <b>Inventario de repuestos:</b> recursos que posee la empresa para efectos de suplir fallas en máquinas o partes intercambiables; deben permanecer disponibles cuando sean necesitados por el departamento de producción y no interrumpir el proceso de producción (llantas para camiones, cuchilla para un tractor o guadaña, etc.).
           li 
             i.fas.fa-angle-right
-            p <b>Inventario de activos:</b> conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos (computadores muebles y escritorios, bodegas, etc.).
+            p <b>Inventario de activos:</b> conjunto de recursos de capital con que cuenta la organización para su operación y el trabajo de los individuos (computadores, muebles y escritorios, bodegas, etc.).
 
           li 
             i.fas.fa-angle-right

@@ -91,7 +91,7 @@
     Separador
 
     #t_6_2.titulo-segundo
-      .h2 6.2 Técnicas de presentación y compilación de información
+      .h2 6.2 Sobre las fuentes de información, es clave tener en cuenta los siguientes aspectos
 
     p.mb-3 Frecuentemente, la información empresarial se compila y presenta a través de instrumentos que aportan al diagnóstico, a la notificación de avances al plan estratégico, a la difusión de la comercialización y de la producción o, en general, a dar cuenta de los procesos micro y macro de la gestión empresarial.
 
@@ -284,7 +284,7 @@ export default {
       {
         titulo: 'Encuestas',
         texto:
-          'Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo..',
+          'Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo.',
         imagen: require('@/assets/curso/images/tema6/img_6.png'),
       },
       {

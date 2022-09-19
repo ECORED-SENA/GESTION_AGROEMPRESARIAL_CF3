@@ -141,7 +141,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo: 'Técnicas de presentación y compilación de información',
+            titulo:
+              'Sobre las fuentes de información, es clave tener en cuenta los siguientes aspectos',
             hash: 't_6_2',
           },
         ],
@@ -286,6 +287,7 @@ export default {
     {
       referencia:
         'Jdelca, A. E. (2020). ¿Cómo iniciar el proceso del diagnóstico empresarial en mi organización? [Video]. YouTube',
+      link: 'https://www.youtube.com/watch?v=xbS2KO92BZU',
     },
     {
       referencia:
@@ -325,7 +327,7 @@ export default {
     {
       termino: 'Cronograma',
       significado:
-        'En planeación, refiere a la determinación en función del tiempo, de las actividades a realizar y los recursos a utilizar para el desarrollo de las estrategias y acciones propiamente definidas en el plan de acción',
+        'En planeación, refiere a la determinación en función del tiempo, de las actividades a realizar y los recursos a utilizar para el desarrollo de las estrategias y acciones propiamente definidas en el plan de acción.',
     },
     {
       termino: 'Cultura organizacional',
@@ -350,7 +352,7 @@ export default {
     {
       termino: 'Estadísticas',
       significado:
-        'Son conjuntos de información agregada por tipo de variable o factor en la empresa, que se consolidan para efectos de análisis y toma de decisiones',
+        'Son conjuntos de información agregada por tipo de variable o factor en la empresa, que se consolidan para efectos de análisis y toma de decisiones.',
     },
     {
       termino: 'Factores',
@@ -360,7 +362,7 @@ export default {
     {
       termino: 'Factores críticos',
       significado:
-        'Son los aspectos o variables que inciden en la empresa de manera significativa, se denominan críticos, porque repercuten en el estado actual de la empresa. no siempre son los mismos, pueden cambiar con el tiempo.',
+        'Son los aspectos o variables que inciden en la empresa de manera significativa, se denominan críticos, porque repercuten en el estado actual de la empresa. No siempre son los mismos, pueden cambiar con el tiempo.',
     },
     {
       termino: 'Metodología',
@@ -375,7 +377,7 @@ export default {
     {
       termino: 'Oportunidad',
       significado:
-        'Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo',
+        'Son las posibilidades que se le presentan a la empresa de poder actuar en condiciones de favorabilidad o beneficio, desarrollo.',
     },
   ],
   complementario: [
