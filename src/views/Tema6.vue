@@ -35,7 +35,7 @@
           h4 Fuentes secundarias
           p.mb-0 Promueven y difunden información primaria, la cual sintetizan, le realizan análisis y reorganizan. Facilitan y maximizan el acceso a datos, permitiendo mayor alcance. Si bien son una fuente válida de información presentan cierto nivel de riesgo ya que, al ser información reprocesada, reorganizada, puede incurrir en imprecisiones o desviaciones de su sentido inicial.
     
-    p.mb-5 Sobre las fuentes de información, es clace tener en cuenta los siguientes aspectos:
+    p.mb-5 Sobre las fuentes de información, es clave tener en cuenta los siguientes aspectos:
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA
