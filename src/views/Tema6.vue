@@ -76,8 +76,63 @@
 
     p.mb-3 Dentro de las técnicas e instrumentos de recolección de información más comunes y prácticos, se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-3
-      SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
+    SlyderE.sl.color-custom-1.mb-5.p-4(indicadores="derecha")(data-aos="zoom-in-down")
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Entrevistas individuales
+          p.mb-0 Es una conversación empática en un clima de confianza mutua, compresión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_3.png', alt='Texto que describa la imagen')
+
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Análisis de documentos de informes previos
+          p.mb-0 Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualice las posibilidades de actividad y su comportamiento histórico.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_3_1.png', alt='Texto que describa la imagen')
+      
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Debates o foros en grupos pequeños
+          p.mb-0 Se adelantan sesiones grupales con un tema central por indagar, promoviendo los diferentes puntos de vista e interpretación que nutren la discusión dirigida frente a algún factor o variable, problema específico, sustentación del sector agropecuario y sus posibilidades, necesidades de desarrollo, abastecimiento, etc.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_4.png', alt='Texto que describa la imagen')
+        
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Entrevista colectiva
+          p.mb-0 Donde, a partir de la convocatoria de un grupo de personas, el moderador o entrevistador aplicará una serie de preguntas registrando las respuestas diferenciadas y comunes, en un lenguaje amable.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_5.png', alt='Texto que describa la imagen')
+        
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Encuestas
+          p.mb-0 Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_6.png', alt='Texto que describa la imagen')
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Autoevaluaciones
+          p.mb-0 Ejercicio de consulta para obtener respuesta, a partir de la reflexión de los trabajadores, sobre los aspectos o factores que afectan el mercado, sus posibilidades de desarrollo, etc. Se realiza con formularios o cuestionarios.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema6/img_7.png', alt='Texto que describa la imagen')
 
     p.mb-3 Tanto las entrevistas como las encuestas manejan formularios para realizar las preguntas, las cuales dependiendo de la naturaleza de la información pueden ser de pregunta cerrada o abierta, cuando se busca información descriptiva.
 
@@ -257,46 +312,7 @@
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'Entrevistas individuales',
-        texto:
-          'Es una conversación empática en un clima de confianza mutua, comprensión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto. ',
-        imagen: require('@/assets/curso/images/tema6/img_3.png'),
-      },
-      {
-        titulo: 'Análisis de documentos de informes previos',
-        texto:
-          'Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualicen las posibilidades de actividad y su comportamiento histórico.',
-        imagen: require('@/assets/curso/images/tema6/img_3_1.png'),
-      },
-      {
-        titulo: 'Debates o foros en grupos pequeños',
-        texto:
-          'Se adelantan sesiones grupales con un tema central por indagar, promoviendo los diferentes puntos de vista e interpretación que nutren la discusión dirigida frente a algún factor o variable, problema específico, sustentación del sector agropecuario y sus posibilidades, necesidades de desarrollo, abastecimiento, etc.',
-        imagen: require('@/assets/curso/images/tema6/img_4.png'),
-      },
-      {
-        titulo: 'Entrevista colectiva',
-        texto:
-          'Donde, a partir de la convocatoria de un grupo de personas, el moderador o entrevistador aplicará una serie de preguntas registrando las respuestas diferenciadas y comunes, en un lenguaje amable.',
-        imagen: require('@/assets/curso/images/tema6/img_5.png'),
-      },
-      {
-        titulo: 'Encuestas',
-        texto:
-          'Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo.',
-        imagen: require('@/assets/curso/images/tema6/img_6.png'),
-      },
-      {
-        titulo: 'Autoevaluaciones',
-        texto:
-          'Ejercicio de consulta para obtener respuesta, a partir de la reflexión de los trabajadores, sobre los aspectos o factores que afectan el mercado, sus posibilidades de desarrollo, etc. Se realiza con formularios o cuestionarios.',
-        imagen: require('@/assets/curso/images/tema6/img_7.png'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

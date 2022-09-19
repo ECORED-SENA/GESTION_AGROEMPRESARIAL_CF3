@@ -55,8 +55,46 @@
 
     p.mb-3 Se debe profundizar en los aspectos característicos y más destacados de la planeación estratégica, los cuales se enuncian y detallan a continuación:
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
-    .row.justify-content-center.align-items-center.mb-3
-      SlyderB.sl.color-custom-1.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
+    SlyderE.sl.color-custom-1.mb-5.p-4(indicadores="derecha")(data-aos="zoom-in-down")
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Las fases de la producción
+          p.mb-0 Las fases producción, mercadeo y consumo, se desarrollan en forma sucesiva, existiendo una interrelación entre ellas y una estrecha vinculación entre las dos primeras, a tal punto que es difícil establecer dónde termina la producción y dónde empieza el mercadeo.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema2/img_2_1.png', alt='Texto que describa la imagen')
+
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Planeación y ordenamiento productivo
+          p.mb-0 El Ministerio de Agricultura, mediante la Unidad de Planificación Rural Agropecuaria (UPRA), promueve y vincula aspectos de mercado, con el análisis de variables e indicadores de actividad, relacionados con la oferta y la demanda nacional, para consumo interno y externo (importaciones y exportaciones); ello ayuda a los productores a focalizarse competitivamente, identificando aspectos  comparativos de evolución de la producción y consumo, del uso del suelo rural y de las posibilidades de los acuerdos de comercio que Colombia ha firmado con otros países.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
+      
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Implementación de método
+          p.mb-0 La planeación dentro de un proceso productivo agropecuario consiste en la definición e implementación de un método de trabajo para obtener los productos deseados por los inversionistas, según sus intereses y posibilidades técnicas, en las cantidades adecuadas, en los tiempos apropiados y corrientes para la producción y consumo, estableciendo la estructura de costos apropiada para hacer rentable la producción. 
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
+        
+
+      .row
+        .col-md-4.mb-4.mb-md-0
+          h3 Factores del ambiente de mercado
+          p.mb-0 La planificación fusiona factores del ambiente de mercado y la tecnología de la organización para transformarlo en una actividad productiva y económicamente eficiente. En general, la planeación constituye el proceso que permite obtener la visión del futuro productivo, lo cual requiere del establecimiento de: objetivos, estrategias, políticas y normas, plan de acción, presupuesto, cronograma.
+      
+        .col-md-8
+          figure
+            img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
+
 
     p.mb-3 Ahora, se debe identificar los elementos estructurales que configuran la planeación estratégica de una organización:
 
@@ -281,34 +319,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'Las fases de la producción',
-        texto:
-          'Las fases producción, mercadeo y consumo, se desarrollan en forma sucesiva, existiendo una interrelación entre ellas y una estrecha vinculación entre las dos primeras, a tal punto que es difícil establecer dónde termina la producción y dónde empieza el mercadeo. ',
-        imagen: require('@/assets/curso/images/tema2/img_2_1.png'),
-      },
-      {
-        titulo: 'Planeación y ordenamiento productivo',
-        texto:
-          'El Ministerio de Agricultura, mediante la Unidad de Planificación Rural Agropecuaria (UPRA), promueve y vincula aspectos de mercado, con el análisis de variables e indicadores de actividad, relacionados con la oferta y la demanda nacional, para consumo interno y externo (importaciones y exportaciones); ello ayuda a los productores a focalizarse competitivamente, identificando aspectos  comparativos de evolución de la producción y consumo, del uso del suelo rural y de las posibilidades de los acuerdos de comercio que Colombia ha firmado con otros países.',
-        imagen: require('@/assets/curso/images/tema2/img_2.png'),
-      },
-      {
-        titulo: 'Implementación de método',
-        texto:
-          'La planeación dentro de un proceso productivo agropecuario consiste en la definición e implementación de un método de trabajo para obtener los productos deseados por los inversionistas, según sus intereses y posibilidades técnicas, en las cantidades adecuadas, en los tiempos apropiados y corrientes para la producción y consumo, estableciendo la estructura de costos apropiada para hacer rentable la producción. ',
-        imagen: require('@/assets/curso/images/tema2/img_3.png'),
-      },
-      {
-        titulo: 'Factores del ambiente de mercado',
-        texto:
-          'La planificación fusiona factores del ambiente de mercado y la tecnología de la organización para transformarlo en una actividad productiva y económicamente eficiente. En general, la planeación constituye el proceso que permite obtener la visión del futuro productivo, lo cual requiere del establecimiento de: objetivos, estrategias, políticas y normas, plan de acción, presupuesto, cronograma.',
-        imagen: require('@/assets/curso/images/tema2/img_4.png'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
