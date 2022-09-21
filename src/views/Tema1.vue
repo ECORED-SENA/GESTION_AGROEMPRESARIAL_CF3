@@ -20,7 +20,7 @@
     .row.justify-content-center.align-items-center.mb-3
   .container.bg-white.px-md-5.py-2.container-top.fondo.m-top.mb-0.cs
 
-    SlyderE.sl.color-custom-1.mb-5.p-4(indicadores="derecha")(data-aos="zoom-in-down")
+    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Distinción del producto

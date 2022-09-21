@@ -55,7 +55,7 @@
 
     p.mb-3 Se debe profundizar en los aspectos característicos y más destacados de la planeación estratégica, los cuales se enuncian y detallan a continuación:
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
-    SlyderE.sl.color-custom-1.mb-5.p-4(indicadores="derecha")(data-aos="zoom-in-down")
+    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Las fases de la producción

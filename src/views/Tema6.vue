@@ -76,7 +76,7 @@
 
     p.mb-3 Dentro de las técnicas e instrumentos de recolección de información más comunes y prácticos, se encuentran:
 
-    SlyderE.sl.color-custom-1.mb-5.p-4(indicadores="derecha")(data-aos="zoom-in-down")
+    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
       .row
         .col-md-4.mb-4.mb-md-0
           h3 Entrevistas individuales
