@@ -96,7 +96,7 @@
                     span Descargar
                     .row
                       .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema3/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+                        img(src="@/assets/curso/images/tema3/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
     Separador
 
     #t_3_3.titulo-segundo
