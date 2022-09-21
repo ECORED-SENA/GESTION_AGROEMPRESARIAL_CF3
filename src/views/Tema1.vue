@@ -17,61 +17,56 @@
       .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_1.png')
   
-    .row.justify-content-center.align-items-center.mb-3
-  .container.bg-white.px-md-5.py-2.container-top.fondo.m-top.mb-0.cs
 
-    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Distinción del producto
-          p.mb-0 A través de los procesos de certificación se obtiene un sello que distingue a un producto de otros, lo cual se convierte en un elemento diferenciador que mejorará la confianza de los consumidores en los productos, permite mayores precios de venta y facilita el acceso a nuevos mercados, incluso, en ámbitos internacionales.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
+    .container.bg-white.px-md-5.py-2.container-top.fondo.m-top.mb-0.mt-3.cs
+      .color-custom-1.p-4
+        SlyderA(tipo="b")(data-aos="fade-left")
+          .row.justify-content-center.align-items-center
+            .col-md-11.mb-4.mb-md-3.col-lg-4
+              h3 Distinción del producto
+              p.mb-0 A través de los procesos de certificación se obtiene un sello que distingue a un producto de otros, lo cual se convierte en un elemento diferenciador que mejorará la confianza de los consumidores en los productos, permite mayores precios de venta y facilita el acceso a nuevos mercados, incluso, en ámbitos internacionales.      
+            .col-md-11.col-lg-7
+              figure
+                img.img-a.img-t(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
 
 
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Mejora profunda de los procesos
-          p.mb-0 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema1/img_3.png', alt='Texto que describa la imagen')
-      
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Entes competentes
-          p.mb-0 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
-        
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Certificaciones adicionales o complementarias
-          p.mb-0 Además de los requisitos establecidos por el ICA, las actividades productivas agropecuarias pueden obtener certificaciones adicionales a las que se accede de manera voluntaria, las cuales le confieren al producto un sello de calidad que lo acredita como depositario de ciertas características especiales.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
-      
+          .row.justify-content-center.align-items-center
+            .col-md-11.mb-4.mb-md-3.col-lg-4
+              h3 Mejora profunda de los procesos
+              p.mb-0 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.      
+            .col-md-11.col-lg-7
+              figure
+                img.img-a.img-t(src='@/assets/curso/images/tema1/img_3.png', alt='Texto que describa la imagen')
           
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Concepto de empresa u organización
-          p.mb-0 En definitiva, se trata de un conjunto de personas que, de manera organizada y con el uso de recursos propios de su labor, desarrollan actividades con el fin de lograr objetivos comunes. Todo ello, en el marco de ciertas normas que favorecen tal cumplimiento de actividades y aseguran a los individuos que participan en ellas.
 
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema1/img_6.png', alt='Texto que describa la imagen')
+          .row.justify-content-center.align-items-center
+            .col-md-11.mb-4.mb-md-3.col-lg-4
+              h3 Entes competentes
+              p.mb-0 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.      
+            .col-md-11.col-lg-7
+              figure
+                img.img-a.img-t(src='@/assets/curso/images/tema1/img_4.png', alt='Texto que describa la imagen')
             
 
-    h4.mb-3 Dedicación de las organizaciones según su actividad y proceso
+          .row.justify-content-center.align-items-center
+            .col-md-11.mb-4.mb-md-3.col-lg-4
+              h3 Certificaciones adicionales o complementarias
+              p.mb-0 Además de los requisitos establecidos por el ICA, las actividades productivas agropecuarias pueden obtener certificaciones adicionales a las que se accede de manera voluntaria, las cuales le confieren al producto un sello de calidad que lo acredita como depositario de ciertas características especiales.      
+            .col-md-11.col-lg-7
+              figure
+                img.img-a.img-t(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
+          
+              
+          .row.justify-content-center.align-items-center
+            .col-md-11.mb-4.mb-md-3.col-lg-4
+              h3 Concepto de empresa u organización
+              p.mb-0 En definitiva, se trata de un conjunto de personas que, de manera organizada y con el uso de recursos propios de su labor, desarrollan actividades con el fin de lograr objetivos comunes. Todo ello, en el marco de ciertas normas que favorecen tal cumplimiento de actividades y aseguran a los individuos que participan en ellas.
+            .col-md-11.col-lg-7
+              figure
+                img.img-a.img-t(src='@/assets/curso/images/tema1/img_6.png', alt='Texto que describa la imagen')
+              
+
+    h4.mb-3.mt-5 Dedicación de las organizaciones según su actividad y proceso
 
     p.mb-3 En Colombia la economía se estructura a partir del tipo de proceso de producción que desarrollan las empresas u organizaciones, las cuales, desde un enfoque clásico convencional, se dividen en tres sectores: 
 

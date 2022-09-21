@@ -345,21 +345,12 @@
 
 .bg_grad-02
   background-color: #D2E1F1
-  background-repeat: no-repeat
-  background-size: cover
-  @media (max-width: 992px)
-    width: 400px
-  @media (max-width: 412px)
-    margin-top: -10px
-    margin-left: 6px
-    background-repeat: no-repeat
-    background-size: cover
-    width: 350px
-  @media (max-width: 397px)
-    margin-top: -10px
-    background-repeat: no-repeat
-    background-size: cover
-    width: 350px
+.img-a 
+  display: block
+  margin: auto
+.img-t
+  width: auto
+  height: auto    
 
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   transform: translateY(-50%) rotate(90deg)
@@ -449,13 +440,15 @@
   @media (max-width: $bp-max-sm )
     width: 10px
     height: 10px  
-    margin: 0 3px    
+    margin: 0 3px  
 
-.slyder-a__bullets__item--active
-  background-color: $color-acento-botones !important
-  border: 1px solid $color-acento-contenido
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  background-color: $color-secundario
-.slyder-a__bullets__item
-  background-color: $color-secundario
-  border: 1px solid $color-primario
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)      
+

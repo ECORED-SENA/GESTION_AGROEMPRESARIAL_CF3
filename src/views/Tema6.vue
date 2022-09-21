@@ -39,22 +39,22 @@
 
     .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA
-        .row.justify-content-center.align-items-center.p-5
+        .row.justify-content-center.p-5
           .col-12.col-md-2.mb-3.mb-md-0
-            img(src="@/assets/curso/images/tema6/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
-          .col-12.col-md-10.mb-3.mb-md-0
-            p.mb-0 <b>Exploración e indagación:</b> las fuentes secundarias se utilizan mucho para efectos de exploración e indagación sobre tendencias o por conceptos derivados de las fuentes primarias, facilitando su entendimiento.
+            img.img-a.img-t(src="@/assets/curso/images/tema6/ico_1.svg",  alt='').mb-2
+          .col-md-9.mb-3.mb-md-0
+            p.mb-0 <b>Exploración e indagación:</b> las fuentes secundarias se utilizan mucho para efectos de exploración e indagación sobre tendencias o por conceps fuentes primarias, facilitando su entendimiento.
 
-        .row.justify-content-center.align-items-star.p-5
-          .col-12.col-md-10.mb-3.mb-md-0
+        .row.justify-content-center.p-5
+          .col-md-9.mb-3.mb-md-0
             p.mb-0 <b>Diagnósticos y toma de decisiones:</b> para efectos de cualquier investigación diagnóstica, y como base para la toma de decisiones, se sugiere siempre contar con fuentes primarias, que son las que tienen mayor grado de confiabilidad.
           .col-12.col-md-2.mb-3.mb-md-0
-            img(src="@/assets/curso/images/tema6/ico_2.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
+            img.img-a.img-t(src="@/assets/curso/images/tema6/ico_2.svg",  alt='').mb-2
           
-        .row.justify-content-center.align-items-star.p-5
-          .col-12.col-md-2.mb-3.mb-md-0
-            img(src="@/assets/curso/images/tema6/ico_3.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-2
-          .col-12.col-md-10.mb-3.mb-md-0
+        .row.justify-content-center.p-5
+          .col-md-2.mb-3.mb-md-0
+            img.img-a.img-t(src="@/assets/curso/images/tema6/ico_3.svg",  alt='').mb-2
+          .col-md-9.mb-3.mb-md-0
             p.mb-0 <b>Fiabilidad de ambos tipos:</b> la confiabilidad que otorgan las fuentes primarias no significa que, en un determinado momento, no se puedan tomar referentes de fuentes secundarias, pero hay que tener en cuenta la fiabilidad de quien la genera o del tipo de documento que representa.
 
     .row.align-items-center.justify-content-between.mb-5
@@ -76,65 +76,65 @@
 
     p.mb-3 Dentro de las técnicas e instrumentos de recolección de información más comunes y prácticos, se encuentran:
 
-    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Entrevistas individuales
-          p.mb-0 Es una conversación empática en un clima de confianza mutua, compresión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto.
+    .color-custom-1.p-4
+      SlyderA(tipo="b")(data-aos="fade-left")
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Entrevistas individuales
+            p.mb-0 Es una conversación empática en un clima de confianza mutua, compresión y afinidad emocional entre el entrevistador y el entrevistado. Regularmente, se orienta a clientes, proveedores o posibles demandantes de producto.
       
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_3.png', alt='Texto que describa la imagen')
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_3.png', alt='Texto que describa la imagen')
 
 
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Análisis de documentos de informes previos
-          p.mb-0 Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualice las posibilidades de actividad y su comportamiento histórico.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_3_1.png', alt='Texto que describa la imagen')
-      
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Debates o foros en grupos pequeños
-          p.mb-0 Se adelantan sesiones grupales con un tema central por indagar, promoviendo los diferentes puntos de vista e interpretación que nutren la discusión dirigida frente a algún factor o variable, problema específico, sustentación del sector agropecuario y sus posibilidades, necesidades de desarrollo, abastecimiento, etc.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_4.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Análisis de documentos de informes previos
+            p.mb-0 Se delega un investigador que reunirá los documentos que contengan la información por analizar (informes cuantitativos o cualitativos, que necesitan ser estudiados), a fin de comprender la información histórica y demás características propias de la empresa. Así mismo, se debe obtener informes sectoriales y gremiales que contextualice las posibilidades de actividad y su comportamiento histórico.
         
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Entrevista colectiva
-          p.mb-0 Donde, a partir de la convocatoria de un grupo de personas, el moderador o entrevistador aplicará una serie de preguntas registrando las respuestas diferenciadas y comunes, en un lenguaje amable.
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_3_1.png', alt='Texto que describa la imagen')
       
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_5.png', alt='Texto que describa la imagen')
+
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Debates o foros en grupos pequeños
+            p.mb-0 Se adelantan sesiones grupales con un tema central por indagar, promoviendo los diferentes puntos de vista e interpretación que nutren la discusión dirigida frente a algún factor o variable, problema específico, sustentación del sector agropecuario y sus posibilidades, necesidades de desarrollo, abastecimiento, etc.
         
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Encuestas
-          p.mb-0 Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_6.png', alt='Texto que describa la imagen')
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_4.png', alt='Texto que describa la imagen')
+        
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Entrevista colectiva
+            p.mb-0 Donde, a partir de la convocatoria de un grupo de personas, el moderador o entrevistador aplicará una serie de preguntas registrando las respuestas diferenciadas y comunes, en un lenguaje amable.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_5.png', alt='Texto que describa la imagen')
+        
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Encuestas
+            p.mb-0 Son el diligenciamiento de formularios que, por medio de preguntas de los diferentes factores y aspectos por diagnosticar, los participantes del diagnóstico expresan su percepción sobre los productos desarrollados por la empresa, o de la competencia, con el fin de identificar tendencias y sustituciones de consumo.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_6.png', alt='Texto que describa la imagen')
 
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Autoevaluaciones
-          p.mb-0 Ejercicio de consulta para obtener respuesta, a partir de la reflexión de los trabajadores, sobre los aspectos o factores que afectan el mercado, sus posibilidades de desarrollo, etc. Se realiza con formularios o cuestionarios.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema6/img_7.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Autoevaluaciones
+            p.mb-0 Ejercicio de consulta para obtener respuesta, a partir de la reflexión de los trabajadores, sobre los aspectos o factores que afectan el mercado, sus posibilidades de desarrollo, etc. Se realiza con formularios o cuestionarios.
+        
+          .col-md-8
+            figure
+              img(src='@/assets/curso/images/tema6/img_7.png', alt='Texto que describa la imagen')
 
-    p.mb-3 Tanto las entrevistas como las encuestas manejan formularios para realizar las preguntas, las cuales dependiendo de la naturaleza de la información pueden ser de pregunta cerrada o abierta, cuando se busca información descriptiva.
+    p.mb-3.mt-5 Tanto las entrevistas como las encuestas manejan formularios para realizar las preguntas, las cuales dependiendo de la naturaleza de la información pueden ser de pregunta cerrada o abierta, cuando se busca información descriptiva.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-10

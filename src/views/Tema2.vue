@@ -55,48 +55,49 @@
 
     p.mb-3 Se debe profundizar en los aspectos característicos y más destacados de la planeación estratégica, los cuales se enuncian y detallan a continuación:
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5  
-    SlyderA.color-custom-1.mb-5.p-4(tipo="b")(data-aos="fade-left")
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Las fases de la producción
-          p.mb-0 Las fases producción, mercadeo y consumo, se desarrollan en forma sucesiva, existiendo una interrelación entre ellas y una estrecha vinculación entre las dos primeras, a tal punto que es difícil establecer dónde termina la producción y dónde empieza el mercadeo.
+    .color-custom-1.p-4
+      SlyderA(tipo="b")(data-aos="fade-left")
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Las fases de la producción
+            p.mb-0 Las fases producción, mercadeo y consumo, se desarrollan en forma sucesiva, existiendo una interrelación entre ellas y una estrecha vinculación entre las dos primeras, a tal punto que es difícil establecer dónde termina la producción y dónde empieza el mercadeo.
       
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema2/img_2_1.png', alt='Texto que describa la imagen')
+          .col-md-11.col-lg-7
+            figure
+              img(src='@/assets/curso/images/tema2/img_2_1.png', alt='Texto que describa la imagen')
 
 
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Planeación y ordenamiento productivo
-          p.mb-0 El Ministerio de Agricultura, mediante la Unidad de Planificación Rural Agropecuaria (UPRA), promueve y vincula aspectos de mercado, con el análisis de variables e indicadores de actividad, relacionados con la oferta y la demanda nacional, para consumo interno y externo (importaciones y exportaciones); ello ayuda a los productores a focalizarse competitivamente, identificando aspectos  comparativos de evolución de la producción y consumo, del uso del suelo rural y de las posibilidades de los acuerdos de comercio que Colombia ha firmado con otros países.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
-      
-
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Implementación de método
-          p.mb-0 La planeación dentro de un proceso productivo agropecuario consiste en la definición e implementación de un método de trabajo para obtener los productos deseados por los inversionistas, según sus intereses y posibilidades técnicas, en las cantidades adecuadas, en los tiempos apropiados y corrientes para la producción y consumo, estableciendo la estructura de costos apropiada para hacer rentable la producción. 
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Planeación y ordenamiento productivo
+            p.mb-0 El Ministerio de Agricultura, mediante la Unidad de Planificación Rural Agropecuaria (UPRA), promueve y vincula aspectos de mercado, con el análisis de variables e indicadores de actividad, relacionados con la oferta y la demanda nacional, para consumo interno y externo (importaciones y exportaciones); ello ayuda a los productores a focalizarse competitivamente, identificando aspectos  comparativos de evolución de la producción y consumo, del uso del suelo rural y de las posibilidades de los acuerdos de comercio que Colombia ha firmado con otros países.
+        
+          .col-md-11.col-lg-7
+            figure
+              img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
         
 
-      .row
-        .col-md-4.mb-4.mb-md-0
-          h3 Factores del ambiente de mercado
-          p.mb-0 La planificación fusiona factores del ambiente de mercado y la tecnología de la organización para transformarlo en una actividad productiva y económicamente eficiente. En general, la planeación constituye el proceso que permite obtener la visión del futuro productivo, lo cual requiere del establecimiento de: objetivos, estrategias, políticas y normas, plan de acción, presupuesto, cronograma.
-      
-        .col-md-8
-          figure
-            img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Implementación de método
+            p.mb-0 La planeación dentro de un proceso productivo agropecuario consiste en la definición e implementación de un método de trabajo para obtener los productos deseados por los inversionistas, según sus intereses y posibilidades técnicas, en las cantidades adecuadas, en los tiempos apropiados y corrientes para la producción y consumo, estableciendo la estructura de costos apropiada para hacer rentable la producción. 
+        
+          .col-md-11.col-lg-7
+            figure
+              img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
+          
+
+        .row.justify-content-center.align-items-center
+          .col-md-11.mb-4.mb-md-3.col-lg-4
+            h3 Factores del ambiente de mercado
+            p.mb-0 La planificación fusiona factores del ambiente de mercado y la tecnología de la organización para transformarlo en una actividad productiva y económicamente eficiente. En general, la planeación constituye el proceso que permite obtener la visión del futuro productivo, lo cual requiere del establecimiento de: objetivos, estrategias, políticas y normas, plan de acción, presupuesto, cronograma.
+        
+          .col-md-11.col-lg-7
+            figure
+              img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
 
 
-    p.mb-3 Ahora, se debe identificar los elementos estructurales que configuran la planeación estratégica de una organización:
+    p.mb-3.mt-5 Ahora, se debe identificar los elementos estructurales que configuran la planeación estratégica de una organización:
 
     .tarjeta.back-line.p-4.mb-5(data-aos="zoom-in-down")
       LineaTiempoC.color-acento-contenido(text-small)
