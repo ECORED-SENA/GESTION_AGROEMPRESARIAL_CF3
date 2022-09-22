@@ -67,29 +67,21 @@
             p.mb-0 A su vez, los trabajadores necesitarán recursos físicos, técnicos y tecnológicos para el desarrollo de sus labores; por tanto, se deben asignar según corresponda. Algunos recursos no son asignables a un cargo o puesto en sí, sino que son activos de uso general, los cuales se suman finalmente a los asignados a las labores funcionales de los trabajadores.
 
       .col-lg-6.mb-3(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema4/img_5.png'  alt='') 
-
-
-    .row.align-items-center.aling.my-3
-      .col-lg-12(data-aos="zoom-in-down")
-        .tarjeta.color-custom-5.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col
-              .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-                .col.mb-3.mb-sm-0
-                  h5.text-white Tabla 1 Estimación de recursos
-                  p.mb-1.text-white Analice la tabla que describe la técnica para la asignación y estimación de recursos para el desarrollo de las actividades.
-                .col-md-2
-                  a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_Presupuesto_recursos.xlsx')" target="_blank")
-                    span Descargar
-                    .row
-                      .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema3/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
-   
-
-
+        img(src='@/assets/curso/images/tema4/img_5.png'  alt='')
+        
+    .tarjeta.color-acento-contenido.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema3/ico_1.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h5.mb-1.text-white Tabla 1 Estimación de recursos
+              p.mb-0 Analice la tabla que describe la técnica para la asignación y estimación de recursos para el desarrollo de las actividades.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/OKEst_Anexo_Presupuesto_recursos.xlsx')" target="_blank")
+                span.ts Descargar
+                i.ts.fas.fa-file-download
 
 
 

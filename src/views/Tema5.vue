@@ -47,23 +47,19 @@
             i.fas.fa-angle-right
             p <b>Inventario de obsoletos:</b> es el inventario que posee la empresa de productos que ya están obsoletos, deteriorados, que cumplieron su vida útil o caducaron, dañados o estropeados y no pueden ser comercializados ni distribuidos.
 
-    .row.align-items-center.aling.my-3
-      .col-lg-12(data-aos="zoom-in-down")
-        .tarjeta.color-custom-5.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col
-              .row.justify-content-between.align-items-center
-                .col-md-2
-                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-                .col.mb-3.mb-sm-0
-                  h5.text-white Gestión De Inventarios
-                  p.mb-1.text-white Amplíe su saber sobre manejo de existencias de inventario.
-                .col-md-3
-                  a.boton.color-custom-8(:href="obtenerLink('downloads/Anexo_2_GestionDeInventarios.pdf')" target="_blank")
-                    span Descargar
-                    .row
-                      .col-auto
-                        img.mx-2(src="@/assets/curso/images/tema3/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+    .tarjeta.color-acento-contenido.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema3/ico_1.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h5.mb-1.text-white Gestión De Inventarios
+              p.mb-0 Amplíe su saber sobre manejo de existencias de inventario.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_2_GestionDeInventarios.pdf')" target="_blank")
+                span.ts Descargar
+                i.ts.fas.fa-file-download                        
     
 
 

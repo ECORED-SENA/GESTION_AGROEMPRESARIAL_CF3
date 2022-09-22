@@ -79,24 +79,20 @@
       .col-lg-6.mb-3(data-aos="fade-right") 
         img.mt-5(src='@/assets/curso/images/tema3/img_5.png'  alt='') 
 
+    .tarjeta.color-acento-contenido.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/images/tema3/ico_1.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h5.mb-1.text-white Herramientas De Análisis Diagnostica
+              p.mb-0 A continuación le invitamos a profundizar a acerca de las diferentes herramientas de análisis y diagnóstico organizacional
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/OKEst_Anexo_1_HerramientasAnalisisDiasgnostica.pdf')" target="_blank")
+                span.ts Descargar
+                i.ts.fas.fa-file-download
 
-    .row.align-items-center.aling.my-3
-      .col-lg-12(data-aos="zoom-in-down")
-        .tarjeta.color-custom-5.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col
-              .row.justify-content-between.align-items-center
-                .col-lg-2
-                  img(src="@/assets/curso/images/tema3/ico_1.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-                .col.mb-3.mb-sm-0
-                  h5.text-white Herramientas De Análisis Diagnostica
-                  p.mb-1.text-white A continuación le invitamos a profundizar a acerca de las diferentes herramientas de análisis y diagnóstico organizacional
-                .col-md-2
-                  a.boton.color-custom-8(:href="obtenerLink('downloads/OKEst_Anexo_1_HerramientasAnalisisDiasgnostica.pdf')" target="_blank")
-                    span Descargar
-                    .row
-                      .col-auto
-                        img(src="@/assets/curso/images/tema3/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
     Separador
 
     #t_3_3.titulo-segundo
